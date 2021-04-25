@@ -1,0 +1,39 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+}
+
+.Main {
+    flex: 1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    // height: 100vh;
+
+    &#information {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        // justify-content: center;
+        .Block {
+            width: 720px;
+            max-width: 100%;
+        }
+    }
+
+    &#partners {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
+    &#activities {
+        & .Line {
+            position: relative;
+            height: 30vh;
+            width: 40vw;
+            bottom: -15vh;
+            right: 0px;
+        }
+    }
+}

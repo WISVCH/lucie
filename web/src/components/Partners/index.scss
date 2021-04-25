@@ -1,0 +1,26 @@
+@import '../../styling/_variables.scss';
+
+.Partners {
+    display: flex;
+}
+
+.Partner {
+    flex-basis: 300px;
+    padding: 16px 32px;
+    position: relative;
+    opacity: .4;
+    &:hover {
+        opacity: 1;
+        // &:before {
+        //     content: '';
+        //     width: 100%;
+        //     height: 100%;
+        //     background-color: $pink;
+        //     opacity: .4;
+        //     position: absolute;
+        //     top: 0px;
+        //     left: 0px;
+        //     display: block;
+        // }
+    }
+}

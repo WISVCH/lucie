@@ -1,0 +1,41 @@
+.Line {
+    border: 18px solid $blue;
+    display: block;
+    z-index: -1;
+    
+    &--pink {
+        border-color: $pink;
+    }
+
+    &--bl {
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom-left-radius: 15vh;
+    }
+
+    &--tr {
+        border-bottom: 0px;
+        border-left: 0px;
+        border-top-right-radius: 15vh;
+    }
+}
+
+.Ball {
+    &--tl {
+        &::before {
+            content: ' ';
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: $blue;
+            top: -25px;
+            left: -25px;
+            position: absolute;
+        }
+    }
+    &--pink {
+        &::before {
+            background-color: $pink;
+        }
+    }
+}

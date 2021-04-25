@@ -1,0 +1,26 @@
+.Hero {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    justify-content: center;
+    align-items: center;
+    &__logo {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0px;
+        bottom: 15vh;
+        // flex: 1;
+        flex-basis: 700px;
+        padding: 48px;
+        margin-bottom: 15vh;
+    }
+    
+    & .Line {
+        position: absolute;
+        height: 30vh;
+        width: 50vw;
+        bottom: -15vh;
+        right: 0px;
+    }
+}
