@@ -1,0 +1,13 @@
+@import '../../styling/variables';
+
+.Footer {
+    background-color: $blue;
+    padding: 32px;
+    
+    h2, p {
+        color: #ffffff;
+    }
+    a {
+        color: #ffffff;
+    }
+}

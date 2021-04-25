@@ -1,7 +1,8 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import { Element } from 'react-scroll';
 import Nav from '../components/Nav';
 import Partners from '../components/Partners';
+import Team from '../components/Team';
 import Timeline from '../components/Timeline';
 
 import './Home.scss';
@@ -12,6 +13,7 @@ const Home = () => {
             <Nav/>
             <div className="Main">
                 <section id="information">
+                    <Element name="information"></Element>
                     <div className="Block">
                         <h2>General information</h2>
                         <p>This year W.I.S.V. 'Christiaan Huygens' will celebrate its 60th anniversary. That is why this year will be all about the 12th lustrum of the study association. This entire academic year will be filled with special and exciting activities with the recurring theme Trending.</p>
@@ -21,17 +23,25 @@ const Home = () => {
                     </div>
                 </section>
                 <section id="partners">
+                    <Element name="partners"></Element>
                     <div className="Block">
                         <h2>Partners</h2>
                         <Partners/>
+                        <a href="mailto:lucie-extern@ch.tudelft.nl" className="Button">Become a partner</a>
                     </div>
                 </section>
                 <section id="activities">
+                    <Element name="activities"></Element>
                     {/* <div className="Line Line--pink Line--tr Ball--tl Ball--pink"></div> */}
                     <div className="Block">
                         <h2>Activities</h2>
                         <Timeline/>
                     </div>
+                </section>
+                <section id="lustrum-committee">
+                    <Element name="lustrum-committee"></Element>
+                    <h2>Lustrum Committee</h2>
+                    <Team/>
                 </section>
             </div>
         </div>

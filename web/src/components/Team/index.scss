@@ -1,0 +1,25 @@
+@import '../../styling/variables';
+.Team {
+    display: flex;
+    flex-wrap: wrap;
+
+    .Person {
+        flex-basis: 280px;
+        padding: 32px;
+        img {
+            width: 100%;
+        }
+        h4 {
+            margin-top: 16px;
+            font-size: 18px;
+            letter-spacing: 2px;
+            color: $pink;
+        }
+        p {
+            margin-top: 8px;
+            text-transform: uppercase;
+            // font-weight: 500;
+            // font-size: 12px;
+        }
+    }
+}

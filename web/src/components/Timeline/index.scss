@@ -1,7 +1,6 @@
 @import '../../styling/variables';
 
 .Timeline {
-    // height: 100vh;
     position: relative;
     margin-top: 32px;
     margin-left: 120px;
@@ -10,7 +9,8 @@
         width: 18px;
         background-color: $pink;
         display: block;
-        height: 100%;
+        bottom: 0px;
+        top: 0px;
         position: absolute;
         left: -32px;
         margin-top: 48px;
@@ -27,6 +27,10 @@
         border-radius: 10px;
           
         box-shadow: 0 0px 1px 0 rgba(0,0,0,0.05), 0 5px 12.5px 0 rgba(59,61,63,0.11);
+
+        @media(max-width: 768px){
+            padding: 24px;
+        }
 
         h3 {
             margin-top: 0px;
@@ -75,6 +79,8 @@
             text-align: right;
             position: absolute;
             margin: 0px;
+            background-color: #ffffff;
+            width: 50px;
             // display: block;
         }
 
@@ -88,6 +94,30 @@
             display: block;
             position: absolute;
             left: -56px;
+        }
+    }
+
+    & .Line {
+        position: absolute;
+        height: 30vh;
+        width: 20vw;
+        bottom: -15vh;
+        left: -32px;
+    }
+
+    @media(max-width: 768px){
+        margin-left: 32px;
+
+        & .Title {
+            position: static;
+    
+            h4 {
+                position: static;
+            }
+
+            &:before {
+                left: -40px;
+            }
         }
     }
 }

@@ -1,14 +1,4 @@
 .Nav {
-    position: sticky;
-    top: 0px;
-    right: 0px;
-    padding: 0px 32px;
-    height: 0px;
-    flex-basis: 250px;
-
-    height: 100vh;
-    align-items: center;
-    display: flex;
 
     a {
         display: block;
@@ -17,6 +7,44 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 2em;
-
+        cursor: pointer;
     }
+    &__mobile {
+        display: none;
+    }
+
+    @media(min-width: 769px){
+        position: sticky;
+        top: 0px;
+        right: 0px;
+        padding: 0px 32px;
+        height: 0px;
+        flex-basis: 250px;
+
+        height: 100vh;
+        align-items: center;
+        display: flex;
+    }
+
+    @media(max-width: 768px){
+        display: none;
+    }
+
+    // @media(max-width: 768px){
+    //     position: fixed;
+    //     height: auto;
+    //     left: 0px;
+    //     right: 0px;
+    //     background-color: #ffffff;
+    //     top: 0px;
+    //     z-index: 10;
+    //     padding: 16px 16px;
+
+    //     &__mobile {
+    //         display: flex;
+    //     }
+    //     nav {
+    //         display: none;
+    //     }
+    // }
 }

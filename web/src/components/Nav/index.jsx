@@ -1,19 +1,20 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import './index.scss';
 
 const Nav = () => {
     return (
         <div className="Nav">
+            <div className="Nav__mobile">
+                <div className="Nav__toggle">MENU</div>
+            </div>
             <nav>
-                <a href="#information">Information</a>
-                <a href="#partners">Partners</a>
-                <a href="#activities">Activities</a>
-                <a href="#merchandise">Merchandose</a>
-                <a href="#wallpapers">Wallpapers</a>
-                <a href="#album">Album</a>
-                <a href="#lustrum-committee">Lustrum committee</a>
-                <a href="#contact">Contact</a>
+                <Link to="information" spy={true} smooth={true} duration={1000}>Information</Link>
+                <Link to="partners" spy={true} smooth={true} duration={1000}>Partners</Link>
+                <Link to="activities" spy={true} smooth={true} duration={1000}>Activities</Link>
+                <Link to="lustrum-committee" spy={true} smooth={true} duration={1000}>Lustrum committee</Link>
+                <Link to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
             </nav>
         </div>
     );

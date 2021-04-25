@@ -21,16 +21,26 @@
 }
 
 .Ball {
-    &--tl {
+    &--tl, &--br {
         &::before {
             content: ' ';
             width: 32px;
             height: 32px;
             border-radius: 50%;
             background-color: $blue;
+            position: absolute;
+        }
+    }
+    &--tl {
+        &::before {
             top: -25px;
             left: -25px;
-            position: absolute;
+        }
+    }
+    &--br {
+        &::before {
+            bottom: -25px;
+            right: -25px;
         }
     }
     &--pink {

@@ -2,11 +2,14 @@
 
 .Partners {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
 }
 
 .Partner {
     flex-basis: 300px;
     padding: 16px 32px;
+    margin-bottom: 16px;
     position: relative;
     opacity: .4;
     &:hover {

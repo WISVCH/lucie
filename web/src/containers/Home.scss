@@ -17,8 +17,7 @@ section {
         margin-bottom: 15vh;
         // justify-content: center;
         .Block {
-            width: 720px;
-            max-width: 100%;
+            max-width: 720px;
         }
     }
 
@@ -28,12 +27,19 @@ section {
     }
 
     &#activities {
-        & .Line {
-            position: relative;
-            height: 30vh;
-            width: 40vw;
-            bottom: -15vh;
-            right: 0px;
+        // & .Line {
+        //     position: relative;
+        //     height: 30vh;
+        //     width: 40vw;
+        //     bottom: -15vh;
+        //     right: 0px;
+        // }
+    }
+    &#lustrum-committee {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        h2 {
+            text-align: center;
         }
     }
 }
