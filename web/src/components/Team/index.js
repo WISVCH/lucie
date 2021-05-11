@@ -10,7 +10,7 @@ const Team = () => {
             <div className="Person">
                 <img src={Huygens} alt="Huygens"/>
                 <h4>Joep de Jong</h4>
-                <p>Chariman</p>
+                <p>Chairman</p>
             </div>
             <div className="Person">
                 <img src={Huygens} alt="Huygens"/>

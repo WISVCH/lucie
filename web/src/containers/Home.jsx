@@ -18,7 +18,7 @@ const Home = () => {
                         <h2>General information</h2>
                         <p>Next year W.I.S.V. 'Christiaan Huygens' will celebrate its 65th anniversary. That is why next year will be all about the 13th lustrum of the study association. The entire academic year will be filled with special and exciting activities with the recurring theme Connect.</p>
                         <p>This year we started to spread the news with an activity: canoening in the Abtswoudse Bos. Next year we will celebrate this lustrum with many different events. There will be 2 lustrum weeks with social events, business events and some educational workshops.</p>
-                        <p>During each quarter, a number of bigger events will also be hosted. These events sttill have to be anounced!</p>
+                        <p>During each quarter, a number of bigger events will also be hosted. These events still have to be anounced!</p>
                         <p>We are really looking forward to the whole year. We hope to see you at all the different activities!</p>
                     </div>
                 </section>
