@@ -16,17 +16,18 @@ const Home = () => {
                     <Element name="information"></Element>
                     <div className="Block">
                         <h2>General information</h2>
-                        <p>This year W.I.S.V. 'Christiaan Huygens' will celebrate its 60th anniversary. That is why this year will be all about the 12th lustrum of the study association. This entire academic year will be filled with special and exciting activities with the recurring theme Trending.</p>
-                        <p>Last year we started to spread the news with two activities, the announcement of our theme with a mural and a cantus. This year we will celebrate this lustrum with many different events. There will be 2 lustrum weeks with social events, business events and some educational workshops.</p>
-                        <p>During each quarter of this year, a number of bigger events will also be hosted. Among these will be a gala, a hitchhiking competition, a symposium and the biggest event will be the hackathon. The attendees of the hackathon come up with interesting ideas based on data delivered by companies and process this in some kind of result, for instance an app or model. The most interesting results will receive a prize for their effort.</p>
-                        <p>We are really looking forward to the whole year. We hope to see you at the different activities! And if you want there is also some lustrum merchandise for sale at CH.</p>
+                        <p>Next year W.I.S.V. 'Christiaan Huygens' will celebrate its 65th anniversary. That is why next year will be all about the 13th lustrum of the study association. The entire academic year will be filled with special and exciting activities with the recurring theme Connect.</p>
+                        <p>This year we started to spread the news with an activity: canoening in the Abtswoudse Bos. Next year we will celebrate this lustrum with many different events. There will be 2 lustrum weeks with social events, business events and some educational workshops.</p>
+                        <p>During each quarter, a number of bigger events will also be hosted. These events sttill have to be anounced!</p>
+                        <p>We are really looking forward to the whole year. We hope to see you at all the different activities!</p>
                     </div>
                 </section>
                 <section id="partners">
                     <Element name="partners"></Element>
                     <div className="Block">
                         <h2>Partners</h2>
-                        <Partners/>
+                        {/* <Partners/> */}
+                        <p>We are still looking for partners. Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
                         <a href="mailto:lucie-extern@ch.tudelft.nl" className="Button">Become a partner</a>
                     </div>
                 </section>

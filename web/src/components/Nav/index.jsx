@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+
+import menuIcon from '../../assets/icons/menu.svg';
 
 import './index.scss';
 
 const Nav = () => {
+    const [active, setActive] = useState(false)
     return (
-        <div className="Nav">
+        <div className={'Nav '+ (active?'Nav--active':'')} onClick={() => setActive(!active)}>
             <div className="Nav__mobile">
-                <div className="Nav__toggle">MENU</div>
+                <div className="Nav__toggle" onClick={() => setActive(!active)}><img src={menuIcon} alt="Menu"/></div>
             </div>
             <nav>
-                <Link to="information" spy={true} smooth={true} duration={1000}>Information</Link>
-                <Link to="partners" spy={true} smooth={true} duration={1000}>Partners</Link>
-                <Link to="activities" spy={true} smooth={true} duration={1000}>Activities</Link>
-                <Link to="lustrum-committee" spy={true} smooth={true} duration={1000}>Lustrum committee</Link>
-                <Link to="contact" spy={true} smooth={true} duration={1000}>Contact</Link>
+                <Link to="information" onClick={() => setActive(false)} spy={true} smooth={true} duration={1000}>Information</Link>
+                <Link to="partners" onClick={() => setActive(false)} spy={true} smooth={true} duration={1000}>Partners</Link>
+                <Link to="activities" onClick={() => setActive(false)} spy={true} smooth={true} duration={1000}>Activities</Link>
+                <Link to="lustrum-committee" onClick={() => setActive(false)} spy={true} smooth={true} duration={1000}>Lustrum committee</Link>
+                <Link to="contact" onClick={() => setActive(false)} spy={true} smooth={true} duration={1000}>Contact</Link>
             </nav>
         </div>
     );

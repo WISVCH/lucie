@@ -1,3 +1,5 @@
+@import '../../styling/variables';
+
 .Nav {
 
     a {
@@ -11,6 +13,22 @@
     }
     &__mobile {
         display: none;
+        .Nav__toggle {
+            // width: 48px;
+            position: fixed;
+            right: 16px;
+            top: 16px;
+            padding: 12px;
+            background-color: $blue;
+            border-radius: 50%;
+            line-height: 0em;
+            opacity: .7;
+            // display: block;
+            img {
+                width: 24px;
+                // width: 100%;
+            }
+        }
     }
 
     @media(min-width: 769px){
@@ -27,7 +45,32 @@
     }
 
     @media(max-width: 768px){
-        display: none;
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+
+        nav {
+            height: 100vh;
+            width: 100vw;
+            background-color: #ffffffEE;
+            padding: 16px;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__mobile {
+            display: block;
+        }
+        &--active {
+            nav {
+                display: flex;
+            }
+            .Nav__mobile {
+                display: none;
+            }
+        }
     }
 
     // @media(max-width: 768px){

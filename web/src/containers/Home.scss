@@ -24,6 +24,9 @@ section {
     &#partners {
         margin-top: 15vh;
         margin-bottom: 15vh;
+        .Block {
+            max-width: 720px;
+        }
     }
 
     &#activities {

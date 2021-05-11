@@ -16,4 +16,13 @@ body {
     letter-spacing: 2px;
     font-size: 14px;
     background-color: $dark-green;
+
+    &--disabled {
+        opacity: .4;
+        cursor: not-allowed;
+
+        &:hover {
+            opacity: .4;
+        }
+    }
 }
