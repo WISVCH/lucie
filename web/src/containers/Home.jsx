@@ -1,7 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import Nav from '../components/Nav';
-import Partners from '../components/Partners';
+// import Partners from '../components/Partners';
 import Team from '../components/Team';
 import Timeline from '../components/Timeline';
 
