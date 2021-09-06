@@ -16,6 +16,19 @@
         margin-top: 48px;
     }
 
+    .Day {
+        display: flex;
+        float: left;
+        clear: left;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        & .Activity {
+            flex: 1;
+            flex-basis: 300px;
+        }
+    }
+
     & .Activity {
         float: left; 
         clear: left; 
@@ -39,7 +52,7 @@
             font-weight: 500;
         }
 
-        &:before {
+        &[data-num]:before {
             content: attr(data-num);
             width: 48px;
             height: 48px;

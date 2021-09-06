@@ -16,11 +16,29 @@ const Timeline = () => {
                 <p>During this activity we will be canoeing in the Abtswoudse Bos in Delft!</p>
                 <a href="https://wisv.ch" target="_blank" rel="noreferrer" className="Button  Button--disabled" disabled>Sold out</a>
             </div>
+            <div className="Title"><h4>Sep</h4></div>
+            <div data-num="15" className="Activity">
+                <h3>Day at the BeaCH</h3>
+                <p>At our first activity in the 65th year we will enjoy the weather on a day at the beach. Together with your fellow CH-members you can play beach games. Afterwards, there is a possibility to have dinner.</p>
+                <a href="https://instagram.com/lucie_wisvch" target="_blank" rel="noreferrer" className="Button">Stay posted</a>
+            </div>
             <div className="Title"><h4>Nov</h4></div>
             <div data-num="15" className="Activity">
-                <h3>Week 1: TBA</h3>
-                <p>The activities for the first lustrum week are not announced yet.. Follow us on Instagram to stay posted about all our activities!</p>
+                <h3>Week 1: Lustrum opening</h3>
+                <p>The kick-off of our first lustrum..</p>
                 <a href="https://instagram.com/lucie_wisvch" target="_blank" rel="noreferrer" className="Button">Stay posted</a>
+            </div>
+            <div className="Day">
+                <div data-num="16" className="Activity">
+                    <h3>Week 1: Lustrum auction</h3>
+                    <p>...</p>
+                    <a href="https://instagram.com/lucie_wisvch" target="_blank" rel="noreferrer" className="Button">Stay posted</a>
+                </div>
+                <div className="Activity">
+                    <h3>Week 1: Lustrum lecture</h3>
+                    <p>The activities for the first lustrum week are not announced yet.. Follow us on Instagram to stay posted about all our activities!</p>
+                    <a href="https://instagram.com/lucie_wisvch" target="_blank" rel="noreferrer" className="Button">Stay posted</a>
+                </div>
             </div>
             <div className="Title"><h4>2022</h4></div>
             <div className="Title"><h4>Mar</h4></div>
