@@ -16,6 +16,7 @@ body {
     letter-spacing: 2px;
     font-size: 14px;
     background-color: $dark-green;
+    margin-right: 16px;
 
     &--disabled {
         opacity: .4;
@@ -24,5 +25,9 @@ body {
         &:hover {
             opacity: .4;
         }
+    }
+
+    &:nth-of-type(2) {
+        background-color: $beige;
     }
 }

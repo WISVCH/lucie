@@ -1,6 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import Nav from '../components/Nav';
+import Partners from '../components/Partners';
 // import Partners from '../components/Partners';
 import Team from '../components/Team';
 import Timeline from '../components/Timeline';
@@ -26,8 +27,8 @@ const Home = () => {
                     <Element name="partners"></Element>
                     <div className="Block">
                         <h2>Partners</h2>
-                        {/* <Partners/> */}
-                        <p>We are still looking for partners. Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
+                        <Partners/>
+                        <p>Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
                         <a href="mailto:lucie-extern@ch.tudelft.nl" className="Button">Become a partner</a>
                     </div>
                 </section>

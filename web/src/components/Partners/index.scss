@@ -4,16 +4,22 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .Partner {
-    flex-basis: 300px;
+    flex-basis: 400px;
     padding: 16px 32px;
     margin-bottom: 16px;
     position: relative;
-    opacity: .4;
+    opacity: 1;
+
+    img {
+        max-width: 100%;
+    }
+
     &:hover {
-        opacity: 1;
+        opacity: .4;
         // &:before {
         //     content: '';
         //     width: 100%;
