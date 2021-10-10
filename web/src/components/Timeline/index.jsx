@@ -9,12 +9,12 @@ const Timeline = () => {
             <div data-num="6" className="Activity">
                 <h3>Pre lustrum: Canoeing Thursday</h3>
                 <p>During this activity we will be canoeing in the Abtswoudse Bos in Delft!</p>
-                <a href="https://ch.tudelft.nl/media/photos/" tbuttonrget="_blank" rel="noreferrer" className="Button">Photos</a>
+                <a href="https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=51" tbuttonrget="_blank" rel="noreferrer" className="Button">Photos</a>
             </div>
             <div data-num="7" className="Activity">
                 <h3>Pre lustrum: Canoeing Friday</h3>
                 <p>During this activity we will be canoeing in the Abtswoudse Bos in Delft!</p>
-                <a href="https://ch.tudelft.nl/media/photos/" target="_blank" rel="noreferrer" className="Button">Photos</a>
+                <a href="https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=51" target="_blank" rel="noreferrer" className="Button">Photos</a>
             </div>
             <div className="Title"><h4>Sep</h4></div>
             <div data-num="15" className="Activity">
