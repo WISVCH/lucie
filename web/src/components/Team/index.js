@@ -8,7 +8,7 @@ import PhotoWouter from '../../assets/img/wouter.png';
 import PhotoDoris from '../../assets/img/doris.png';
 import PhotoSebastien from '../../assets/img/sebastien.png';
 import PhotoJanne from '../../assets/img/janne.png';
-import PhotoBastiaan from '../../assets/img/bastiaan.png';
+import PhotoGuus from '../../assets/img/guus.png';
 
 import './index.scss';
 
@@ -46,8 +46,8 @@ const Team = () => {
                 <p>Events</p>
             </div>
             <div className="Person">
-                <img src={PhotoBastiaan} alt="Huygens"/>
-                <h4>Bastiaan Bakker</h4>
+                <img src={PhotoGuus} alt="Huygens"/>
+                <h4>Guus van Daal</h4>
                 <p>Qualitate Qua</p>
             </div>
         </div>

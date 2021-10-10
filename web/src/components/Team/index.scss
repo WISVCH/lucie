@@ -1,11 +1,17 @@
 @import '../../styling/variables';
 .Team {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1280px;
+    align-self: center;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .Person {
-        flex-basis: 280px;
-        padding: 32px;
+        flex-basis: 400px;
+        padding: 24px;
         img {
             width: 100%;
         }
