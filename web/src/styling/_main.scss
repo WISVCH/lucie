@@ -17,6 +17,9 @@ body {
     font-size: 14px;
     background-color: $dark-green;
     margin-right: 16px;
+    white-space: nowrap;
+    margin-top: 8px;
+    // margin-bottom: 4px;
 
     &--disabled {
         opacity: .4;
@@ -32,5 +35,10 @@ body {
     }
     &--beige {
         background-color: $beige;
+    }
+
+    &-wrapper {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
