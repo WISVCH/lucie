@@ -30,4 +30,7 @@ body {
     &:nth-of-type(2) {
         background-color: $beige;
     }
+    &--beige {
+        background-color: $beige;
+    }
 }
