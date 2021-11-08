@@ -41,8 +41,7 @@ const Home = () => {
                         <p>Until October 22nd, it is possible to order the lustrum longsleeves in 2 colors: <b>pink</b> and <b>blue</b>. The longsleeves has 3 prints: the cute connect owl is placed at your heart, the word 'connect' is on the sleeve, and a small Christiaan Huygens text is placed on the back.</p>
                         <p>It is possible to see the longsleeves in person before ordering them online. There are some samples in the association room of CH, which can also be used for fitting. The samples are subject to change slightly.</p>
                         <div className="Button-wrapper">
-                            <a href="https://ch.tudelft.nl/events/76bf1bec-3530-468f-b84e-9447474e0fa9/" target="_blank" rel="noreferrer" className="Button">Buy your longsleeve</a>
-                            <a href="https://wisv.ch/lustrummerchform" target="_blank" rel="noreferrer" className="Button">Fill in the form</a>
+                            <a href="https://ch.tudelft.nl/events/76bf1bec-3530-468f-b84e-9447474e0fa9/" target="_blank" rel="noreferrer" className="Button Button--disable">Sold out</a>
                         </div>
                     </div>
                 </section>
