@@ -78,8 +78,21 @@ const Timeline = () => {
             </div>
             <div data-num="27" className="Activity">
                 <h3>CHess tournament</h3>
-                <p>On the 27th of November a CHess tournament will be held. This activity is open for all TU Students. The location will be announced soon!</p>
-                <a href="https://instagram.com/lucie_wisvch" target="_blank" rel="noreferrer" className="Button Button--beige">Stay posted</a>
+                <p>Test your chess skills at the chess tournament on 27 november in hall X3 (in X, the Sports&amp;Culture centre). The event begins at 11:00 and the actual tournament will start at 11:30. Lunch will be provided and there will be free coffee and tea for all participants. This event is open for members of W.I.S.V. 'Christiaan Huygens' and for students with an X membership. Tickets can be bought for only €5!</p>
+                <p>The tournament will be a Rapid Chess, Swiss-style tournament where everyone participates in one big group. There will be a total of 5 rounds, each round taking 40 minutes. Each player gets a maximum of 15 minutes per round, including a few seconds per move. Afterwards your next opponent will be selected, pitting you against other players with similar win/loss ratios. At the end of the tournament, prizes will be handed out. If you have more questions about the structure of the tournament, please ask in an email to <a href="mailto:lucie@ch.tudelft.nl">lucie@ch.tudelft.nl</a></p>
+
+                <h4>Time Schedule</h4>
+                <ul>
+                    <li>11:00 - Opening</li>
+                    <li>11.30 - Round 1</li>
+                    <li>12.10 - Round 2</li>
+                    <li>12.50 - Round 3</li>
+                    <li>13.30 - Break</li>
+                    <li>14.10 - Round 4</li>
+                    <li>14.50 - Round 5</li>
+                    <li>16.00 - Prize Ceremony</li>
+                </ul>
+                <a href="https://ch.tudelft.nl/events/b93a59a0-029b-49bb-a7b5-16c25759f5f1" target="_blank" rel="noreferrer" className="Button">Tickets</a>
             </div>
             <div className="Title"><h4>Dec</h4></div>
             <div data-num="22" className="Activity">
