@@ -5,7 +5,7 @@ import Nav from '../components/Nav';
 import Partners from '../components/Partners';
 // import Partners from '../components/Partners';
 import Team from '../components/Team';
-import Timeline from '../components/Timeline';
+import Timeline from '../components/Timeline/index';
 
 import './Home.scss';
 
@@ -57,16 +57,16 @@ const Home = () => {
                             <a href="https://ch.tudelft.nl/events/76bf1bec-3530-468f-b84e-9447474e0fa9/" target="_blank" rel="noreferrer" className="Button Button--disabled" disabled>Sold out</a>
                         </div>
                     </div>
-                    <div className="Block">
+                    {/* <div className="Block">
                         <h2>Calendar</h2>
                         <p>Do you like to be part of our fabulous lustrum CHalendar? Then this is your time!</p>
                         <p>If you are interested in shooting a photo with your friends/committee/board or by yourself, such that you guys will represent a month in our CHalendar, please fill in this form and we will reach out to you! </p>
                         <div className="Button-wrapper">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSMaQVBzwFjibP832Nk9p0qh0NZpfkEGC4pIU73RPpzGwPLw/viewform?usp=sf_link" target="_blank" rel="noreferrer" className="Button">Fill in the form</a>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
-                <section id="album">
+                {/* <section id="album">
                     <div className="Block">
                         <h2>Ongoing Game: CHristmas Puzzle</h2>
                         <p>Every month, around the 13th, there is an ongoing game organised by the LuCie. For every month you participate you get at least one "ticket" for the lottery at the end of the lustrumyear. Participating multiple times results in a higher win chance. People who perform best in an ongoing game are awarded with some bonus "tickets", to increase their chances.</p>
@@ -83,7 +83,7 @@ const Home = () => {
                             <a href="https://forms.gle/go4h3f1htGjSYyD98" target="_blank" rel="noreferrer" className="Button">Submit your answer</a>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section id="activities">
                     <Element name="activities"></Element>
                     {/* <div className="Line Line--pink Line--tr Ball--tl Ball--pink"></div> */}
