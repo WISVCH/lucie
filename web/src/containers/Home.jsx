@@ -29,8 +29,8 @@ const Home = () => {
                     <div className="Block">
                         <h2>Partners</h2>
                         <Partners/>
-                        <p>Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
-                        <a href="mailto:lucie-extern@ch.tudelft.nl" target="_blank" rel="noreferrer" className="Button">Become a partner</a>
+                        {/* <p>Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
+                        <a href="mailto:lucie-extern@ch.tudelft.nl" target="_blank" rel="noreferrer" className="Button">Become a partner</a> */}
                     </div>
                 </section>
                 <section id="album">
@@ -41,13 +41,13 @@ const Home = () => {
 
                         <p>Finsihed songs can be submitted via e-mail (<a href="mailto:lucie@ch.tudelft.nl">lucie@ch.tudelft.nl</a>). If the size of the attachment is too large, we suggest to use WeTransfer.</p>
                         <div className="Button-wrapper">
-                            <a href="https://docs.google.com/forms/d/1h3XdGjiokS3IC450lztm-enzHNTTB3Pd57jbqjSsrrg/edit" target="_blank" rel="noreferrer" className="Button" disabled>Claim your song</a>
+                            <a href="https://soundcloud.com/chlustrum/sets/lustrum-uilbum" target="_blank" rel="noreferrer" className="Button" disabled>Listen to the album!</a>
                             <a href="https://wetransfer.com/" target="_blank" rel="noreferrer" className="Button">WeTransfer</a>
                         </div>
                     </div>
                 </section>
-                <section id="merchandise">
-                    <Element name="merchandise"></Element>
+                {/* <section id="merchandise"> */}
+                    {/* <Element name="merchandise"></Element>
                     <div className="Block">
                         <h2>Merchandise</h2>
                         <Merchandise/>
@@ -56,7 +56,7 @@ const Home = () => {
                         <div className="Button-wrapper">
                             <a href="https://ch.tudelft.nl/events/76bf1bec-3530-468f-b84e-9447474e0fa9/" target="_blank" rel="noreferrer" className="Button Button--disabled" disabled>Sold out</a>
                         </div>
-                    </div>
+                    </div> */}
                     {/* <div className="Block">
                         <h2>Calendar</h2>
                         <p>Do you like to be part of our fabulous lustrum CHalendar? Then this is your time!</p>
@@ -65,7 +65,7 @@ const Home = () => {
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSMaQVBzwFjibP832Nk9p0qh0NZpfkEGC4pIU73RPpzGwPLw/viewform?usp=sf_link" target="_blank" rel="noreferrer" className="Button">Fill in the form</a>
                         </div>
                     </div> */}
-                </section>
+                {/* </section> */}
                 {/* <section id="album">
                     <div className="Block">
                         <h2>Ongoing Game: CHristmas Puzzle</h2>
