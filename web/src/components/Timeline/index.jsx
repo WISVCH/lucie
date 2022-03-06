@@ -6,16 +6,23 @@ const Timeline = () => {
         <div className="Timeline">
             <div className="Title"><h4>2022</h4></div>
             <div className="Title"><h4>Mar</h4></div>
-            <div data-num="14" className="Activity">
-                <h3>Lustrum Debate</h3>
-                <p>If you want to learn how to defend yourself, get over your stage fright or if you want to just have a fun time with your friends and talk about current subjects, the lustrum debate is something for you!<br/>
-                At the debate you and your teammates are going to play against another team and perform a debate.<br/>
-                Together with professional judges and game masters you can learn and gain experience in debating about current and hot topics!</p>
-                <a href="https://ch.tudelft.nl/events/78850fe7-6ecb-47e0-a3b6-4e3e484f8e7c" tbuttonrget="_blank" rel="noreferrer" className="Button">Tickets</a>
+            <div className="Day">
+                <div data-num="14" className="Activity">
+                    <h3>Lustrum Debate</h3>
+                    <p>If you want to learn how to defend yourself, get over your stage fright or if you want to just have a fun time with your friends and talk about current subjects, the lustrum debate is something for you!<br/>
+                    At the debate you and your teammates are going to play against another team and perform a debate.<br/>
+                    Together with professional judges and game masters you can learn and gain experience in debating about current and hot topics!</p>
+                    <a href="https://ch.tudelft.nl/events/78850fe7-6ecb-47e0-a3b6-4e3e484f8e7c" tbuttonrget="_blank" rel="noreferrer" className="Button">Tickets</a>
+                </div>
+                <div className="Activity">
+                    <h3>Lustrum Reception</h3>
+                    <p>The reception takes place after the debate and is organized by the board of the study association.</p>
+                    <a href="https://ch.tudelft.nl/activities/event/2022/lustrum-reception/" tbuttonrget="_blank" rel="noreferrer" className="Button">More information</a>
+                </div>
             </div>
 
             <div className="Day">
-            <div data-num="15" className="Activity">
+                <div data-num="15" className="Activity">
                     <h3>Lustrum Lecture: Andries Tunru</h3>
                     <p>The speaker of our second lustrum lecture is Andries Tunru! Andries is a comedian known from tv-shows such as <i>Lingo</i> and <i>De Slimste Mens</i>. Want to hear how he created an algorithm to win the game show Lingo? Come listen to him while enjoying a sandwich!</p>
                     <a href="https://ch.tudelft.nl/events/9dd27160-158a-4a38-ab49-ab1261a6c71f" target="_blank" rel="noreferrer" className="Button">Tickets</a>
@@ -37,7 +44,7 @@ const Timeline = () => {
                 <div data-num="17" className="Activity">
                     <h3>Lustrum Danceworkshop</h3>
                     <p>Are you done with having dance skills like you are a wooden plank? Then we have just the activity for you! On Thursday evening, we will have a salsa dancing workshop given by the student dance association SoSalsa themselves. The workshop will be given in the Bierfabriek.</p>
-                    <a href="https://ch.tudelft.nl/events/2443eaaa-ac7f-46ba-97da-b3f515a9a6a0" target="_blank" rel="noreferrer" className="Button">Tickets</a>
+                    <a href="https://ch.tudelft.nl/events/2443eaaa-ac7f-46ba-97da-b3f515a9a6a0" target="_blank" rel="noreferrer" className="Button Button--disabled" disabled>Sold Out</a>
                 </div>
                 <div className="Activity">
                     <h3>Lustrum Cocktailparty</h3>

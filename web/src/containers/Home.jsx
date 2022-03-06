@@ -1,6 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import Merchandise from '../components/Merchandise';
+// import Merchandise from '../components/Merchandise';
 import Nav from '../components/Nav';
 import Partners from '../components/Partners';
 // import Partners from '../components/Partners';
