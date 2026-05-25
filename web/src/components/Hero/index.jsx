@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../assets/img/logo-connect-subtitle.png';
+import Logo from '../../assets/img/Logo-highlight.png';
 
 import './index.scss'
 

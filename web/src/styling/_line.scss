@@ -1,10 +1,10 @@
 .Line {
-    border: 18px solid $blue;
+    border: 18px solid $eucalyptus;
     display: block;
     z-index: -1;
     
     &--pink {
-        border-color: $pink;
+        border-color: $lavender;
     }
 
     &--bl {
@@ -27,7 +27,7 @@
             width: 32px;
             height: 32px;
             border-radius: 50%;
-            background-color: $blue;
+            background-color: $eucalyptus;
             position: absolute;
         }
     }
@@ -45,7 +45,7 @@
     }
     &--pink {
         &::before {
-            background-color: $pink;
+            background-color: $lavender;
         }
     }
 }
