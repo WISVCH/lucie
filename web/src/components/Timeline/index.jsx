@@ -140,20 +140,12 @@ const ACTIVITIES_DATA = [
     { type: 'month', value: 'MARCH' },
     {
         type: 'day',
-        items: [
-            { 
+        items: [{ 
                 date: '15 Mar', 
                 title: 'Opening and Reception', 
                 description: 'Description',
                 ticketLink: 'https://ch.tudelft.nl/'
-            },
-            { 
-                date: '15 Mar', 
-                title: 'Diner', 
-                description: 'Description',
-                ticketLink: 'https://ch.tudelft.nl/'
-            }
-        ]
+        }]
     },
     {
         type: 'day',
