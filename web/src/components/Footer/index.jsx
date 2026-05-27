@@ -14,7 +14,7 @@ const Footer = () => {
                 Mekelweg 4,<br/>
                 2628CD Delft<br/>
                 <b>T:</b> <a href="tel:31152782532">015 278 2532</a><br/>
-                <b>E:</b> <a href="mailto:lucie@ch.tudelft.nl">lucie@ch.tudelft.nl</a><br/>
+                <b>E:</b> <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a><br/>
             </p>
         </div>
     );
