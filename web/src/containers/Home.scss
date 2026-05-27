@@ -1,10 +1,23 @@
 .Home {
     display: flex;
     flex-direction: row;
+
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(to right, rgba(147, 112, 219, 0.15) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(147, 112, 219, 0.15) 1px, transparent 1px);
+
+    background-size: 30px 30px; 
+    
+    background-position: center top;
 }
 
 .Main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 section {
@@ -13,7 +26,7 @@ section {
     // height: 100vh;
 
     &#information {
-        margin-top: 15vh;
+        margin-top: 2vh;
         margin-bottom: 15vh;
         // justify-content: center;
         .Block {
@@ -29,15 +42,16 @@ section {
         }
     }
 
-    // &#activities {
-        // & .Line {
-        //     position: relative;
-        //     height: 30vh;
-        //     width: 40vw;
-        //     bottom: -15vh;
-        //     right: 0px;
-        // }
-    // }
+    &#activities {
+        & .Line {
+            position: relative;
+            height: 30vh;
+            width: 40vw;
+            bottom: -15vh;
+            right: 0px;
+        }
+    }
+
     &#lustrum-committee {
         margin-top: 15vh;
         margin-bottom: 15vh;
