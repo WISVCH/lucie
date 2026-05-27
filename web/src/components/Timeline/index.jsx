@@ -1,63 +1,302 @@
 import React from 'react';
+import './index.scss';
 
-import './index.scss'
+const ACTIVITIES_DATA = [
+    // sep
+    { type: 'month', value: 'SEPTEMBER' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '10 Sep', 
+            title: 'Abseilen', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // oct
+    { type: 'month', value: 'OCTOBER' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '6 Oct', 
+            title: 'Sumo Chess Tournament', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // week 1
+    { type: 'header', value: 'Lustrum Week 1' },
+    { type: 'month', value: 'NOVEMBER' },
+    {
+        type: 'day',
+        items: [
+            { 
+                date: '16 Nov', 
+                title: 'Owl Show', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            },
+            { 
+                date: '16 Nov', 
+                title: 'Running Dinner', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            }
+        ]
+    },
+    {
+        type: 'day',
+        items: [
+            { 
+                date: '17 Nov', 
+                title: 'Lunch Lecture Company', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            },
+            { 
+                date: '17 Nov', 
+                title: 'Sip and Paint', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            }
+        ]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '18 Nov', 
+            title: 'Company Drinks', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [
+            { 
+                date: '19 Nov', 
+                title: 'Workshop Company', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            },
+            { 
+                date: '19 Nov', 
+                title: 'Cantus with Live Band', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            }
+        ]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '20 Nov', 
+            title: 'External Day', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // dec
+    { type: 'month', value: 'DECEMBER' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '3 Dec', 
+            title: 'AkCie Collab for Sinterklaas', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // jan
+    { type: 'month', value: 'JANUARY' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '7 Jan', 
+            title: 'Cabaret Night', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // feb
+    { type: 'month', value: 'FEBRUARY' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '11 Feb', 
+            title: 'Beer Tasting', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // week 2
+    { type: 'header', value: 'Lustrum Week 2' },
+    { type: 'month', value: 'MARCH' },
+    {
+        type: 'day',
+        items: [
+            { 
+                date: '15 Mar', 
+                title: 'Opening and Reception', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            },
+            { 
+                date: '15 Mar', 
+                title: 'Diner', 
+                description: 'Description',
+                ticketLink: 'https://ch.tudelft.nl/'
+            }
+        ]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '16 Mar', 
+            title: 'Workshop Company', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '17 Mar', 
+            title: 'Sports Day', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '18 Mar', 
+            title: 'Pool Party', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '19 Mar', 
+            title: 'Honorary Faculty Members Dinner', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // apr
+    { type: 'month', value: 'APRIL' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '22 Apr', 
+            title: 'Stock Exchange', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // may
+    { type: 'month', value: 'MAY' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '12 May', 
+            title: 'Kanoeing', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+
+    // jun
+    { type: 'month', value: 'JUNE' },
+    {
+        type: 'day',
+        items: [{ 
+            date: '3 Jun', 
+            title: 'Beach Day', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '10 Jun', 
+            title: 'SjaarCie Collab', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '25 Jun', 
+            title: 'Lustrum Finale: The Grand Highlight Party', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    }
+];
+
 const Timeline = () => {
     return (
         <div className="Timeline">
-            <div className="Title"><h4>2022</h4></div>
-            <div className="Title"><h4>Mar</h4></div>
-            <div className="Day">
-                <div data-num="14" className="Activity">
-                    <h3>Lustrum Debate</h3>
-                    <p>If you want to learn how to defend yourself, get over your stage fright or if you want to just have a fun time with your friends and talk about current subjects, the lustrum debate is something for you!<br/>
-                    At the debate you and your teammates are going to play against another team and perform a debate.<br/>
-                    Together with professional judges and game masters you can learn and gain experience in debating about current and hot topics!</p>
-                    <a href="https://ch.tudelft.nl/events/78850fe7-6ecb-47e0-a3b6-4e3e484f8e7c" tbuttonrget="_blank" rel="noreferrer" className="Button">Tickets</a>
-                </div>
-                <div className="Activity">
-                    <h3>Lustrum Reception</h3>
-                    <p>The reception takes place after the debate and is organized by the board of the study association.</p>
-                    <a href="https://ch.tudelft.nl/activities/event/2022/lustrum-reception/" tbuttonrget="_blank" rel="noreferrer" className="Button">More information</a>
-                </div>
-            </div>
+            {ACTIVITIES_DATA.map((element, index) => {
+                if (element.type === 'year' || element.type === 'month') {
+                    return (
+                        <div key={index} className="Title">
+                            <h4>{element.value}</h4>
+                        </div>
+                    );
+                }
 
-            <div className="Day">
-                <div data-num="15" className="Activity">
-                    <h3>Lustrum Lecture: Andries Tunru</h3>
-                    <p>The speaker of our second lustrum lecture is Andries Tunru! Andries is a comedian known from tv-shows such as <i>Lingo</i> and <i>De Slimste Mens</i>. Want to hear how he created an algorithm to win the game show Lingo? Come listen to him while enjoying a sandwich!</p>
-                    <a href="https://ch.tudelft.nl/events/9dd27160-158a-4a38-ab49-ab1261a6c71f" target="_blank" rel="noreferrer" className="Button">Tickets</a>
-                </div>
-                <div className="Activity">
-                    <h3>Lustrum Darts</h3>
-                    <p>During the darts tournament you can show off your darts skills (if you have them) and compete against fellow CH members. The tournament structure depends on the number of participants, but we start with an Around the World game in the group phases. 8 winners of the group phases can take part in the quarter final, where they will play a 301 or 501 game. The semifinals and final are also a 301 or 501 game.</p>
-                    <p>Darts experience is not required, before the tournament starts there is some time to practice throwing darts. When you are done playing, it is possible to watch other games and drink a soda or a beer. Every participants gets 3 free drinks. </p>
-                    <a href="https://ch.tudelft.nl/events/f3d4441e-db2f-4f86-a538-1005f56e2c38" target="_blank" rel="noreferrer" className="Button">Tickets</a>
-                </div>
-            </div>
-            <div data-num="16" className="Activity">
-                <h3>Lustrum Workshop</h3>
-                <p>What are containers, why are containers practical, and how are applications placed in containers? You can become wiser on these topics when Netcompany invites you to a programming workshop on March 16th, where these themes are in focus. The workshop will give you a basic understanding of containerization and will teach you how to containerize your own applications using Docker and Docker Compose. The workshop is adapted to all levels.</p>
-                <p>We start at 13.00. Here Netcompany will introduce you to the case, after which you and your team will get started. We end the evening with a review of the case with an example of the result.</p>
-                <a href="https://ch.tudelft.nl/events/2fd63895-312d-4e8c-96e1-a64a9ccc4393" target="_blank" rel="noreferrer" className="Button">Tickets</a>
-            </div>
-            <div className="Day">
-                <div data-num="17" className="Activity">
-                    <h3>Lustrum Danceworkshop</h3>
-                    <p>Are you done with having dance skills like you are a wooden plank? Then we have just the activity for you! On Thursday evening, we will have a salsa dancing workshop given by the student dance association SoSalsa themselves. The workshop will be given in the Bierfabriek.</p>
-                    <a href="https://ch.tudelft.nl/events/2443eaaa-ac7f-46ba-97da-b3f515a9a6a0" target="_blank" rel="noreferrer" className="Button Button--disabled" disabled>Sold Out</a>
-                </div>
-                <div className="Activity">
-                    <h3>Lustrum Cocktailparty</h3>
-                    <p>A lustrum classic; On Thursday evening we will have the traditional lustrum cocktail party in the Bierfabriek. On this evening you will get a variety of cocktails while enjoying some music! First there will be a DJ who will be playing some songs to which your hips will not lie... After that we have two more DJ duos who will spin some tunes and even a dance performance in between!</p>
-                    <a href="https://ch.tudelft.nl/events/bcd8da87-51b3-4893-94c4-b5a38edc6672" target="_blank" rel="noreferrer" className="Button">Tickets</a>
-                </div>
-            </div>
-            <div data-num="18" className="Activity">
-                <h3>Lustrum Tikibad</h3>
-                <p>To conclude our second lustrum week we will be doing a swimming pool trip to the tropical Tikibad. Buy a ticket and join us from Delft where we will be taking a Kwibus to Wassenaar to slide down 21 different water slides and much more! Afterwards the Kwibus will take you back to Delft. </p>
-                <a href="https://ch.tudelft.nl/events/679b655b-5e59-4567-946a-d0509bd3f36e" target="_blank" rel="noreferrer" className="Button">Tickets</a>
-            </div>
-            <div className="Line Line--bl Line--pink Ball--br Ball--pink"></div>
+                if (element.type === 'header') {
+                    return (
+                        <div key={index} className="Timeline-SectionHeader">
+                            <h2>{element.value}</h2>
+                        </div>
+                    );
+                }
+
+                if (element.type === 'footer') {
+                    return (
+                        <div key={index} className="Timeline-SectionFooter">
+                            <span>{element.value}</span>
+                        </div>
+                    );
+                }
+
+                return (
+                    <div key={index} className="Day">
+                        {element.items && element.items.map((activity, actIndex) => (
+                            <div key={actIndex} className="Activity">
+                                <div className="Activity-Content">
+                                    {activity.date && (
+                                        <div className="Date-Marker">{activity.date}</div>
+                                    )}
+                                    <h3>{activity.title}</h3>
+                                    <p>{activity.description}</p>
+                                </div>
+                                
+                                <div className="Activity-Actions">
+                                    <a href={activity.ticketLink} target="_blank" rel="noreferrer" className="Timeline-Button">
+                                        Get Tickets
+                                    </a>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                );
+            })}
         </div>
     );
 };

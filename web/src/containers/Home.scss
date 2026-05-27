@@ -1,6 +1,9 @@
 .Home {
     display: flex;
     flex-direction: row;
+    width: 100vw;  
+    min-height: 100vh;
+    overflow-x: hidden;
 
     background-color: #ffffff;
     background-image: 
@@ -13,11 +16,12 @@
 }
 
 .Main {
-    flex: 1;
+    flex: 1; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 40px;
+    padding: 20px;
 }
 
 section {
@@ -35,8 +39,8 @@ section {
     }
 
     &#partners {
-        margin-top: 15vh;
-        margin-bottom: 15vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
         .Block {
             max-width: 720px;
         }
@@ -47,14 +51,14 @@ section {
             position: relative;
             height: 30vh;
             width: 40vw;
-            bottom: -15vh;
+            bottom: -5vh;
             right: 0px;
         }
     }
 
     &#lustrum-committee {
-        margin-top: 15vh;
-        margin-bottom: 15vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
         h2 {
             text-align: center;
         }

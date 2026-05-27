@@ -18,11 +18,11 @@
         position: sticky;
         position: -webkit-sticky;
         top: 0px;
-        bottom: 15vh;
+        bottom: 2vh;
         // flex: 1;
         flex-basis: 700px;
         padding: 48px;
-        margin-bottom: 15vh;
+        margin-bottom: 2vh;
 
         img {
             width: 100%;
@@ -30,7 +30,7 @@
 
         @media(max-width: 768px){
             padding: 16px 24px;
-            margin-bottom: 20vh;
+            margin-bottom: 2vh;
         }
     }
     

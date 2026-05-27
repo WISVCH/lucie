@@ -63,18 +63,40 @@ const Home = () => {
                 </section>
 
                 {/* Ongoing game section */}
-                <section id="christmas-puzzle">
-                    <Element name="christmas-puzzle"></Element>
+                <section id="ongoing-games">
+                    <Element name="ongoing-games"></Element>
                     <div className="Block">
-                        <h2>Ongoing Game: CHristmas Puzzle</h2>
-                        <p>Every month, around the 13th, there is an ongoing game organised by the LuCie. For every month you participate you get at least one "ticket" for the lottery at the end of the lustrumyear. Participating multiple times results in a higher win chance. People who perform best in an ongoing game are awarded with some bonus "tickets", to increase their chances.</p>
-                        <p>This month we made a small CHristmas Puzzle, inspired by the yearly <a href="https://www.aivd.nl/onderwerpen/aivd-kerstpuzzel" target="_blank" rel="noreferrer">AIVD Kerstpuzzel</a>. Participating results in 1 ticket, answering the question "Who?" correctly gives you another ticket. Additional tickets may be rewarded for the fastest correct replies on the form and creativity.</p>
-                        <p>We kindly ask you to not share solutions with other participants.</p>
-                        
-                        <h3>The Question:</h3>
-                        <p>Who?</p>
-                        <div className="Button-wrapper">
-                            <a href="https://forms.gle/go4h3f1htGjSYyD98" target="_blank" rel="noreferrer" className="Button">Submit your answer</a>
+                        <h2>Ongoing Games & Monthly Competitions</h2>
+                        <p>Every month, on the 14th, there is an ongoing game or mini-competition organized by the LuCie to honor our 14th Lustrum! </p>
+
+                        <div className="Monthly-Grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '16px', marginTop: '24px' }}>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Oct</strong> — Dart Tournament 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Nov</strong> — Album Release 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Dec</strong> — Baking Competition 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Jan</strong> — Puzzle Competition 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Feb</strong> — Valentines Special 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Mar</strong> — Promotion Competition 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Apr</strong> — Knakworst Competition 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 May</strong> — 14 Floors 
+                            </div>
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+                                <strong>14 Jun</strong> — Coloring Contest 
+                            </div>
                         </div>
                     </div>
                 </section>
