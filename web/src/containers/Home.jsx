@@ -21,7 +21,7 @@ const Home = () => {
                         <p>Next year W.I.S.V. 'Christiaan Huygens' will celebrate its 70th anniversary. That is why next year will be all about the 14th lustrum of the study association. The entire academic year will be filled with special and exciting activities with the recurring theme Highlight.</p>
                         <p>This year we started to spread the news with an activity: a movie night in Pathé. Next year we will celebrate this lustrum with many different events. There will be 2 lustrum weeks with social events, business events and some educational workshops.</p>
                         <p>The first lustrum week will be from the 16th of November until the 20th of November, the second week is from the 15h of March until the 19th of March!</p>
-                        <p>During each quarter, a number of bigger events will also be hosted. You can find these activities in the timeline`</p>
+                        <p>During each quarter, a number of bigger events will also be hosted. You can find these activities in the timeline.</p>
                         <p>We are really looking forward to the whole year. We hope to see you at all the different activities!</p>
                     </div>
                 </section>
@@ -56,9 +56,8 @@ const Home = () => {
                     <Element name="merchandise"></Element>
                     <div className="Block">
                         <h2>Merchandise</h2>
+                        <p>More info to come!</p>
                         <Merchandise/>
-                        <p>Until October 22nd, it is possible to order the lustrum longsleeves in 2 colors: <b>pink</b> and <b>blue</b>. The longsleeves has 3 prints: the cute connect owl is placed at your heart, the word 'connect' is on the sleeve, and a small Christiaan Huygens text is placed on the back.</p>
-                        <p>It is possible to see the longsleeves in person before ordering them online. There are some samples in the association room of CH, which can also be used for fitting. The samples are subject to change slightly.</p>
                     </div>
                 </section>
 
