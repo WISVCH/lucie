@@ -69,33 +69,52 @@ const Home = () => {
                         <p>Every month, on the 14th, there is an ongoing game or mini-competition organized by the LuCie to honor our 14th Lustrum! </p>
 
                         <div className="Monthly-Grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '16px', marginTop: '24px' }}>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Oct</strong> — Dart Tournament 
+    
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Oct</strong></div>
+                                <span>Dart Tournament</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Nov</strong> — Album Release 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Nov</strong></div>
+                                <span>Album Release</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Dec</strong> — Baking Competition 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Dec</strong></div>
+                                <span>Baking Competition</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Jan</strong> — Puzzle Competition 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Jan</strong></div>
+                                <span>Puzzle Competition</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Feb</strong> — Valentines Special 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Feb</strong></div>
+                                <span>Valentines Special</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Mar</strong> — Promotion Competition 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Mar</strong></div>
+                                <span>Promotion Competition</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Apr</strong> — Knakworst Competition 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Apr</strong></div>
+                                <span>Knakworst Competition</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 May</strong> — 14 Floors 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 May</strong></div>
+                                <span>14 Floors</span>
                             </div>
-                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-                                <strong>14 Jun</strong> — Coloring Contest 
+
+                            <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div><strong className="text-highlight-lavender">14 Jun</strong></div>
+                                <span>Coloring Contest</span>
                             </div>
+
                         </div>
                     </div>
                 </section>
