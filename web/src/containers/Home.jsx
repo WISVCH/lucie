@@ -11,7 +11,7 @@ import './Home.scss';
 const Home = () => {
     return (
         <div className="Home">
-            <Nav/>
+            <Nav />
             <div className="Main">
                 {/* Information Section */}
                 <section id="information">

@@ -1,8 +1,27 @@
 @import '../../styling/variables';
 
 .Nav {
+    @media(min-width: 769px) {
+        position: sticky;
+        top: 40px;             
+        height: calc(100vh - 80px);
+        flex-basis: 260px;
+        min-width: 260px;
+        padding: 0 20px 0 40px;
+        display: flex;
+        align-items: flex-start;
+    }
 
-    a {
+    nav {
+        display: flex;
+        flex-direction: column; 
+        gap: 12px;              
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    a, [role="button"], nav > * {
         display: block;
         text-decoration: none;
         text-transform: uppercase;
@@ -10,12 +29,19 @@
         font-size: 20px;
         line-height: 2em;
         cursor: pointer;
+        color: #83b993; 
+        text-align: left;
+        width: 100%;
+        white-space: nowrap; 
+        
+        &:hover {
+            opacity: 0.8;
+        }
     }
     
     &__mobile {
         display: none;
         .Nav__toggle {
-            // width: 48px;
             position: fixed;
             right: 16px;
             top: 16px;
@@ -24,71 +50,45 @@
             border-radius: 50%;
             line-height: 0em;
             opacity: .7;
-            // display: block;
+            z-index: 110;
             img {
                 width: 24px;
-                // width: 100%;
             }
         }
-    }
-
-    @media(min-width: 769px){
-        position: sticky;
-        top: 0px;
-        right: 0px;
-        padding: 0px 16px 0px 32px;
-        height: 0px;
-        flex-basis: 230px;
-
-        height: 100vh;
-        align-items: center;
-        display: flex;
     }
 
     @media(max-width: 768px){
         position: fixed;
         top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #ffffff;
+        padding: 16px;
         z-index: 100;
 
         nav {
+            display: none; 
+            flex-direction: column;
+            position: fixed;
+            top: 0;
+            left: 0;
             height: 100vh;
             width: 100vw;
-            background-color: #ffffffEE;
-            padding: 16px;
-            display: none;
-            flex-direction: column;
+            background-color: #ffffff;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
+            padding: 40px;
+            gap: 20px;
+        }
+        
+        &__mobile {
+            display: flex;
         }
 
-        &__mobile {
-            display: block;
-        }
         &--active {
             nav {
                 display: flex;
             }
-            .Nav__mobile {
-                display: none;
-            }
-        }
-    }
-
-    @media(max-width: 768px){
-        position: fixed;
-        height: auto;
-        left: 0px;
-        right: 0px;
-        background-color: #ffffff;
-        top: 0px;
-        z-index: 10;
-        padding: 16px 16px;
-
-        &__mobile {
-            display: flex;
-        }
-        nav {
-            display: none;
         }
     }
 }

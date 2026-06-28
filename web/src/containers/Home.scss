@@ -1,6 +1,6 @@
 .Home {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     width: 100vw;  
     min-height: 100vh;
     overflow-x: hidden;
@@ -9,9 +9,7 @@
     background-image: 
         linear-gradient(to right, rgba(147, 112, 219, 0.15) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(147, 112, 219, 0.15) 1px, transparent 1px);
-
     background-size: 30px 30px; 
-    
     background-position: center top;
 }
 
@@ -19,57 +17,25 @@
     flex: 1; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 40px;
-    padding: 20px;
+    padding: 40px;
+}
+
+.Block {
+    width: 100%;
+    max-width: 95%; 
+    text-align: left;
 }
 
 section {
     display: flex;
     flex-direction: column;
-    // height: 100vh;
-
-    &#information {
-        margin-top: 2vh;
-        margin-bottom: 15vh;
-        // justify-content: center;
-        .Block {
-            max-width: 720px;
-        }
-    }
-
-    &#partners {
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        .Block {
-            max-width: 720px;
-        }
-    }
-
-    &#activities {
-        & .Line {
-            position: relative;
-            height: 30vh;
-            width: 40vw;
-            bottom: -5vh;
-            right: 0px;
-        }
-    }
-
-    &#lustrum-committee {
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        h2 {
-            text-align: center;
-        }
-    }
-
-    &#album {
-        textarea {
-            font-size: 16px;
-            height: 6em;
-            width: 300px;
-            max-width: 100%;
-        }
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 12vh;
+    
+    h2 {
+        color: #83b993;
+        text-transform: uppercase;
+        margin-bottom: 16px;
     }
 }
