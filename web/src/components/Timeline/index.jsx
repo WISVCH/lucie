@@ -8,6 +8,15 @@ const ACTIVITIES_DATA = [
         type: 'day',
         items: [{ 
             date: '10 Sep', 
+            title: 'Opening Party', 
+            description: 'Description',
+            ticketLink: 'https://ch.tudelft.nl/'
+        }]
+    },
+    {
+        type: 'day',
+        items: [{ 
+            date: '14 Sep', 
             title: 'Abseilen', 
             description: 'Description',
             ticketLink: 'https://ch.tudelft.nl/'
@@ -202,7 +211,7 @@ const ACTIVITIES_DATA = [
         type: 'day',
         items: [{ 
             date: '12 May', 
-            title: 'Kanoeing', 
+            title: 'Canoeing', 
             description: 'Description',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
@@ -232,7 +241,7 @@ const ACTIVITIES_DATA = [
         type: 'day',
         items: [{ 
             date: '25 Jun', 
-            title: 'Lustrum Finale: The Grand Highlight Party', 
+            title: 'EWI Festival', 
             description: 'Description',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
