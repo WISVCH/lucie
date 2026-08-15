@@ -1,44 +1,40 @@
 .Hero {
     display: flex;
-    height: 50vh;
-    width: 100vw;
-
+    height: 450px; 
+    width: 100%;
     background-color: #ffffff;
     background-image: 
         linear-gradient(to right, rgba(147, 112, 219, 0.15) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(147, 112, 219, 0.15) 1px, transparent 1px);
-
     background-size: 30px 30px; 
-    
-    background-position: center top;
-
+    background-position: 0 0;
     justify-content: center;
     align-items: center;
+
     &__logo {
         position: sticky;
-        position: -webkit-sticky;
         top: 0px;
-        bottom: 2vh;
-        // flex: 1;
+        bottom: 0px;
         flex-basis: 700px;
-        padding: 48px;
-        margin-bottom: 2vh;
+        max-width: 100%; 
+        padding: 30px;
+        box-sizing: border-box;
 
         img {
             width: 100%;
+            display: block;
         }
 
         @media(max-width: 768px){
             padding: 16px 24px;
-            margin-bottom: 2vh;
         }
     }
     
     & .Line {
         position: absolute;
-        height: 30vh;
+        height: 300px;
         width: 50vw;
-        bottom: -15vh;
+        bottom: -150px;
         right: 0px;
     }
 }

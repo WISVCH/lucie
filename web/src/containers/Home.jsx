@@ -18,11 +18,53 @@ const Home = () => {
                     <Element name="information"></Element>
                     <div className="Block">
                         <h2>General information</h2>
-                        <p>Next year W.I.S.V. 'Christiaan Huygens' will celebrate its 70th anniversary. That is why next year will be all about the 14th lustrum of the study association. The entire academic year will be filled with special and exciting activities with the recurring theme Highlight.</p>
-                        <p>This year we started to spread the news with an activity: a movie night in Pathé. Next year we will celebrate this lustrum with many different events. There will be 2 lustrum weeks with social events, business events and some educational workshops.</p>
-                        <p>The first lustrum week will be from the 16th of November until the 20th of November, the second week is from the 15h of March until the 19th of March!</p>
-                        <p>During each quarter, a number of bigger events will also be hosted. You can find these activities in the timeline.</p>
-                        <p>We are really looking forward to the whole year. We hope to see you at all the different activities!</p>
+                        <p>
+                            This year, study association W.I.S.V. 'Christiaan Huygens' (CH) is 
+                            celebrating its 70th anniversary! To mark seven decades of supporting 
+                            Computer Science and Applied Mathematics students, the entire academic year 
+                            is dedicated to our 14th Lustrum under the theme: 
+                            <strong> Highlight</strong>. Last year, we kicked off the excitement 
+                            with a pre-lustrum movie night at Pathé and a cocktail party, but now the main celebration 
+                            is officially underway!
+                        </p>
+
+                        <p>
+                            Throughout the year, we are hosting an incredible lineup of events, having 
+                            both two dedicated Lustrum Weeks (<strong>16–20 November</strong> and <strong>15–19 March</strong>) 
+                            featuring company workshops, a cantus with live band, an owl show, and a pool party, 
+                            alongside single-day highlights like an Opening Party, Abseilen, 
+                            Sumo Chess, and an EWI Festival.
+                        </p>
+
+                        <p>
+                            Here on our website, you can explore everything we have planned and get involved:
+                        </p>
+
+                        <ul>
+                            <li>
+                                <strong>Activities & Timeline:</strong> Explore our complete 
+                                activity schedule to stay up to date and secure your event tickets.
+                            </li>
+                            <li>
+                                <strong>Ongoing Games & Monthly Competitions:</strong> On the 14th of 
+                                every month, join in on fun challenges like our Dart Tournament, 
+                                Baking Competition, or Puzzle Competition.
+                            </li>
+                            <li>
+                                <strong>Lustrum Album:</strong> Learn how to contribute your own song 
+                                or cover to our official album before the September 14th deadline.
+                            </li>
+                            <li>
+                                <strong>Partners & Committee:</strong> Meet the LuCie team organizing 
+                                the year and learn about our corporate partners that made this lustrum possible.
+                            </li>
+                        </ul>
+
+                        <p>
+                            We are thrilled to share this exciting year with you. Explore the rest 
+                            of the site to grab your tickets, submit your album entries, and join us 
+                            for all the upcoming activities!
+                        </p>
                     </div>
                 </section>
 

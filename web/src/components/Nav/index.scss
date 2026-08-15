@@ -14,6 +14,10 @@
             flex-direction: column;
             gap: 12px;
         }
+
+        a, [role="button"], nav > * {
+            white-space: nowrap;
+        }
     }
 
     a, [role="button"], nav > * {
@@ -25,7 +29,6 @@
         line-height: 2em;
         cursor: pointer;
         color: #83b993;
-        white-space: nowrap;
 
         &:hover {
             opacity: 0.8;
@@ -65,6 +68,7 @@
             padding: 40px;
             gap: 20px;
             z-index: 100;
+            overflow-x: hidden; 
         }
 
         &--active nav {
