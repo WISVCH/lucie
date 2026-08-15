@@ -13,7 +13,7 @@ const Home = () => {
         <div className="Home">
             <Nav />
             <div className="Main">
-                {/* Information Section */}
+                {/* info */}
                 <section id="information">
                     <Element name="information"></Element>
                     <div className="Block">
@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Partners Section */}
+                {/* partners */}
                 <section id="partners">
                     <Element name="partners"></Element>
                     <div className="Block">
@@ -37,21 +37,20 @@ const Home = () => {
                     </div>
                 </section>
             
-                {/* Album Section */}
+                {/* album */}
                 <section id="album">
                     <Element name="album"></Element>
                     <div className="Block">
                         <h2>Lustrum Album</h2>
-                        <p>Did you know that you can contribute to the lustrum album? 🎶 You can write your own song or make a cover! Claim your song through the forms in bio to make sure you will be heard on the one and only lustrum album! The deadline to submit your song is 19 December.</p>
-                        <p>Finsihed songs can be submitted via e-mail (<a href="mailto:lucie@ch.tudelft.nl">lucie@ch.tudelft.nl</a>). If the size of the attachment is too large, we suggest to use WeTransfer.</p>
+                        <p>Did you know that you can contribute to the lustrum album? 🎶 You can write your own song or make a cover! The deadline to submit your song is the 14th of September.</p>
+                        <p>You can apply for a song using the Google Forms below. If your application gets approved, you can submit your file in the forms aswell!</p>
                         <div className="Button-wrapper">
-                            <a href="https://soundcloud.com/chlustrum/sets/lustrum-uilbum" target="_blank" rel="noreferrer" className="Button" disabled>Listen to the album!</a>
-                            <a href="https://wetransfer.com/" target="_blank" rel="noreferrer" className="Button">WeTransfer</a>
+                            <a href="https://wisv.ch/lustrumalbum" target="_blank" rel="noreferrer" className="Button">Google Forms</a>
                         </div>
                     </div>
                 </section>
 
-                {/* Merchandise Section */}
+                {/* merch */}
                 <section id="merchandise">
                     <Element name="merchandise"></Element>
                     <div className="Block">
@@ -61,7 +60,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Ongoing game section */}
+                {/* ongoing games */}
                 <section id="ongoing-games">
                     <Element name="ongoing-games"></Element>
                     <div className="Block">
@@ -119,7 +118,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Activities Section */}
+                {/* activities */}
                 <section id="activities">
                     <Element name="activities"></Element>
                     <div className="Block">
@@ -128,7 +127,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Committee Section */}
+                {/* committee */}
                 <section id="lustrum-committee">
                     <Element name="lustrum-committee"></Element>
                     <h2>Lustrum Committee</h2>
