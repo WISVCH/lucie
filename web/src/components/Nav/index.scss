@@ -1,24 +1,19 @@
 @import '../../styling/variables';
 
 .Nav {
-    @media(min-width: 769px) {
+    @media (min-width: 769px) {
         position: sticky;
-        top: 40px;             
-        height: calc(100vh - 80px);
+        top: 40px;
+        align-self: flex-start;
         flex-basis: 260px;
         min-width: 260px;
-        padding: 0 20px 0 40px;
-        display: flex;
-        align-items: flex-start;
-    }
+        padding: 40px 20px 0 40px;
 
-    nav {
-        display: flex;
-        flex-direction: column; 
-        gap: 12px;              
-        align-items: flex-start;
-        justify-content: flex-start;
-        width: 100%;
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
     }
 
     a, [role="button"], nav > * {
@@ -29,18 +24,17 @@
         font-size: 20px;
         line-height: 2em;
         cursor: pointer;
-        color: #83b993; 
-        text-align: left;
-        width: 100%;
-        white-space: nowrap; 
-        
+        color: #83b993;
+        white-space: nowrap;
+
         &:hover {
             opacity: 0.8;
         }
     }
-    
+
     &__mobile {
         display: none;
+
         .Nav__toggle {
             position: fixed;
             right: 16px;
@@ -48,47 +42,33 @@
             padding: 12px;
             background-color: $blue;
             border-radius: 50%;
-            line-height: 0em;
-            opacity: .7;
             z-index: 110;
+
             img {
                 width: 24px;
             }
         }
     }
 
-    @media(max-width: 768px){
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        background-color: #ffffff;
-        padding: 16px;
-        z-index: 100;
-
-        nav {
-            display: none; 
-            flex-direction: column;
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100vh;
-            width: 100vw;
-            background-color: #ffffff;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 40px;
-            gap: 20px;
-        }
-        
+    @media (max-width: 768px) {
         &__mobile {
             display: flex;
         }
 
-        &--active {
-            nav {
-                display: flex;
-            }
+        nav {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background-color: #ffffff;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            gap: 20px;
+            z-index: 100;
+        }
+
+        &--active nav {
+            display: flex;
         }
     }
 }
