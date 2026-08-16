@@ -143,7 +143,7 @@ const Home = () => {
 
                             <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
                                 <div><strong className="text-highlight-lavender">14 Apr</strong></div>
-                                <span>Knakworst Competition</span>
+                                <span>HotDog Competition</span>
                             </div>
 
                             <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
