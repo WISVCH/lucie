@@ -1,30 +1,72 @@
-body {
-    font-family: 'Roboto', 'sans-serif';
-}
-
 p {
-    line-height: 1.6em;
+    font-size: 16px;
+    line-height: $lh-base;
+    margin: 0 0 $grid-step 0;
+    padding: 0;
 }
 
 a {
     color: $eucalyptus;
+    text-decoration: none;
+
     &:hover {
         opacity: .7;
     }
 }
 
 h2 {
-    text-transform: uppercase;
     color: $eucalyptus;
-    font-size: 2em;
+    text-transform: uppercase;
+    font-size: 28px;
     font-weight: 500;
-    margin-bottom: 0px;
+    line-height: 60px;
+    margin: 0 0 $grid-step 0;
 }
 
 h4 {
-    text-transform: uppercase;
     color: $eucalyptus;
+    text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 500;
-    margin-bottom: 0px;
+    margin: 0 0 16px 0;
+}
+
+ul {
+    margin: 0 0 $grid-step 0;
+    padding-left: 30px;
+
+    li {
+        font-size: 16px;
+        line-height: $lh-base;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+strong {
+    font-weight: 700;
+    color: inherit;
+    padding: 0 4px;
+    border-radius: 3px;
+    
+    background-image: linear-gradient(120deg, $highlight-lavender 0%, $highlight-lavender 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+    background-position: 0 88%;
+    
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+@media (max-width: 768px) {
+    p, li {
+        line-height: 1.6;
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 1.3;
+        margin-bottom: 16px;
+    }
 }

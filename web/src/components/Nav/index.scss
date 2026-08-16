@@ -1,4 +1,4 @@
-@import '../../styling/variables';
+@import '../../styling/entry';
 
 .Nav {
     @media (min-width: 769px) {
@@ -28,7 +28,7 @@
         font-size: 20px;
         line-height: 2em;
         cursor: pointer;
-        color: #83b993;
+        color: $eucalyptus;
 
         &:hover {
             opacity: 0.8;

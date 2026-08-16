@@ -1,19 +1,9 @@
-@import '../../styling/variables';
-
-$highlight-eucalyptus: rgba(red($eucalyptus), green($eucalyptus), blue($eucalyptus), 0.65);
-$highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.65);
-
-.text-highlight-lavender {
-    background: $highlight-lavender;
-    padding: 2px 6px;
-    border-radius: 4px;
-    display: inline-block; 
-}
+@import '../../styling/entry';
 
 .Timeline {
     position: relative;
     margin-top: 32px;
-    margin-left: 60px; 
+    margin-left: 0px; 
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -26,28 +16,25 @@ $highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.6
         width: 100%;
         margin-bottom: 16px;
 
-        & .Activity {
+        .Activity {
             flex: 1;
             flex-basis: 300px;
         }
     }
 
-    & .Activity {
+    .Activity {
         padding: 24px 32px; 
         position: relative;
         border-radius: 4px; 
         background-color: #ffffff;
-        
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.03);
         border: 1px solid rgba(0, 0, 0, 0.06);
-
         display: flex;
         flex-direction: row;
         align-items: center; 
         justify-content: space-between;
         gap: 32px;
 
-    
         .Activity-Content {
             display: flex;
             flex-direction: column;
@@ -90,7 +77,6 @@ $highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.6
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             white-space: nowrap; 
-            
             transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
                         background-color 0.2s ease, 
                         box-shadow 0.2s ease;
@@ -108,8 +94,7 @@ $highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.6
         }
     }
 
-    /* month titles */
-    & .Title {
+    .Title {
         width: 100%;
         margin: 24px 0 8px 0;
         display: flex;
@@ -133,31 +118,27 @@ $highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.6
                 height: 18px; 
                 background: $highlight-lavender; 
                 z-index: -1;
-                
                 border-radius: 4px 12px 2px 8px; 
                 transform: rotate(-1deg); 
             }
         }
     }
 
-    /* day titles */
-    & .Date-Marker {
+    .Date-Marker {
         display: inline-block;
-        font-family: monospace; 
+        font-family: $font-family-mono; 
         font-size: 14px;
         font-weight: 700;
         color: #444;
         padding: 4px 10px;
         margin-bottom: 12px;
         border-radius: 3px;
-        
         background: $highlight-eucalyptus;
         box-shadow: 1px 1px 2px rgba(0,0,0,0.05);
         transform: rotate(1deg);
         width: fit-content;
     }
 
-    /* lustrum weeks */
     .Timeline-SectionHeader {
         width: 100%;
         margin-top: 48px;
@@ -190,6 +171,7 @@ $highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.6
     .Timeline-SectionFooter {
         width: 100%;
         margin: -8px 0 24px 4px;
+        
         span {
             font-style: italic;
             color: #666;

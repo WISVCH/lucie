@@ -1,10 +1,9 @@
-@import '../../styling/_variables.scss';
+@import '../../styling/entry';
 
 .Partners {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 32px;
-    margin-top: 32px;
+    margin: 32px 0;
 }
 
 .Partner {
@@ -13,23 +12,13 @@
     margin-bottom: 16px;
     position: relative;
     opacity: 1;
+    transition: opacity 0.2s ease;
 
     img {
         max-width: 100%;
     }
 
     &:hover {
-        opacity: .4;
-        // &:before {
-        //     content: '';
-        //     width: 100%;
-        //     height: 100%;
-        //     background-color: $pink;
-        //     opacity: .4;
-        //     position: absolute;
-        //     top: 0px;
-        //     left: 0px;
-        //     display: block;
-        // }
+        opacity: 0.4;
     }
 }

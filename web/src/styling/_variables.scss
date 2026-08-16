@@ -1,11 +1,16 @@
-$lh: 1.6em;
-
 $blue: #85A5EA;
 $pink: #FFB8D1;
 $dark-green: #9DBBAE;
 $beige: #e2dbbe;
 $red: #dc3545;
 $lavender: #D2A2F7;
-$eucalyptus: #95C895;
+$eucalyptus: #83b993;
 
-$post-card-max-lines: 3;
+$highlight-eucalyptus: rgba(red($eucalyptus), green($eucalyptus), blue($eucalyptus), 0.65);
+$highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.65);
+
+$font-family-base: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-mono: monospace;
+
+$grid-step: 30px; 
+$lh-base: 30px; 

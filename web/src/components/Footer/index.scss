@@ -1,13 +1,10 @@
-@import '../../styling/variables';
+@import '../../styling/entry';
 
 .Footer {
     background-color: $eucalyptus;
     padding: 32px;
     
-    h2, p {
-        color: #ffffff;
-    }
-    a {
+    h2, p, a {
         color: #ffffff;
     }
 }

@@ -1,0 +1,8 @@
+.grid-background {
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(to right, rgba(147, 112, 219, 0.15) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(147, 112, 219, 0.15) 1px, transparent 1px);
+    background-size: $grid-step $grid-step;
+    background-position: 0 0;
+}
