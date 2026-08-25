@@ -9,7 +9,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '10 Sep', 
             title: 'Opening Party', 
-            description: 'Description',
+            description: 'Ready for the new study year? Missed all your friends? Join us at the special Lustrum opening party!! ' + 
+            'With multiple DJ’s and awesome dance moves, the party in the Steck is going to be one to remember! ' +
+            'Bring your +1’s with you for this one, as it’s guaranteed to be a blast.',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -18,7 +20,7 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '14 Sep', 
             title: 'Abseilen', 
-            description: 'Description',
+            description: 'What???? Asbeiling!! From where? The EWI tower!!! Who? You! Scary? Definitely! Epic? Of course! ',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -30,7 +32,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '6 Oct', 
             title: 'Sumo Chess Tournament', 
-            description: 'Description',
+            description: 'Ready for a crazy night in the \\Pub. Join this event where you can combine your 2 favourite activities: ' + 
+            'sumo wrestling and chess. With shorts round of wrestling in sumo suits alternated with speed chess. ' +
+            '2 completely different sports, only 1 winner!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -44,13 +48,16 @@ const ACTIVITIES_DATA = [
             { 
                 date: '16 Nov', 
                 title: 'Owl Show', 
-                description: 'Description',
+                description: 'Oehooeeeee. Oeehoeeee. Are you an owl? I hope not. Have you ever seen one? I think so. ' +
+                'Close by? Probably not. Want to? Duhhhh. See you at this event.',
                 ticketLink: 'https://ch.tudelft.nl/'
             },
             { 
                 date: '16 Nov', 
                 title: 'Running Dinner', 
-                description: 'Description',
+                description: 'Do you enjoy running? Not necessary. Do you enjoy eating? Necessary. Do you enjoy conversating? ' +
+                'Also necessary. At this event you will eat 3 delicious courses at three different houses in Delft. ' +
+                'Between each course you will cycle with ≥1 person to your next course! ',
                 ticketLink: 'https://ch.tudelft.nl/'
             }
         ]
@@ -67,7 +74,9 @@ const ACTIVITIES_DATA = [
             { 
                 date: '17 Nov', 
                 title: 'Sip and Paint', 
-                description: 'Description',
+                description: 'Another event where you can combine two lovely activities. Everyone can join this event. '+
+                'Does not matter if you can paint or not. Does not matter if you can sip or not. '+
+                'Once you start combining, everything becomes easier. ',
                 ticketLink: 'https://ch.tudelft.nl/'
             }
         ]
@@ -93,7 +102,9 @@ const ACTIVITIES_DATA = [
             { 
                 date: '19 Nov', 
                 title: 'Cantus with Live Band', 
-                description: 'Description',
+                description: 'Mama, just killed a man. Put a gun against his head, pulled my trigger, now he’s dead. ' +
+                'Mama, life had just begun. But now I’ve gone and thrown it all away. Enjoy this song? ' +
+                'Then keep singing and join us at the cantus with the live band!',
                 ticketLink: 'https://ch.tudelft.nl/'
             }
         ]
@@ -103,19 +114,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '20 Nov', 
             title: 'External Day', 
-            description: 'Description',
-            ticketLink: 'https://ch.tudelft.nl/'
-        }]
-    },
-
-    // dec
-    { type: 'month', value: 'DECEMBER' },
-    {
-        type: 'day',
-        items: [{ 
-            date: '3 Dec', 
-            title: 'AkCie Collab for Sinterklaas', 
-            description: 'Description',
+            description: 'Do you always get questions from your siblings and friends on what Delft is like? ' +
+            'Well then now it’s time to show them! Bring all your siblings to this special day. ' +
+            'A part of the activities will be at EWI and the \\Pub. Afterwards we will go bowling in Delft! ',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -127,7 +128,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '7 Jan', 
             title: 'Cabaret Night', 
-            description: 'Description',
+            description: 'Why was 6 afraid of 7? Because 7 8 9. Why did 7 eat 9? ' +
+            'Because you are supposed to eat 3 squared meals a day. Interested in more fun jokes and great comedians? ' +
+            'Join this special cabaret night in the \\Pub hosted by the Delft Improv Group. ',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -170,7 +173,8 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '17 Mar', 
             title: 'Sports Day', 
-            description: 'Description',
+            description: 'Do you remember apen kooien from secondary school? We will play this and much more at the sportsday. ' +
+            'Bring your special lustrum sports shirt ;)',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -179,7 +183,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '18 Mar', 
             title: 'Pool Party', 
-            description: 'Description',
+            description: 'Join one of your highlights of the year! Not just any party, but a real pool party! ' +
+            'Go crazy on the slide, in the hot tub, and in the shallow pool. ' +
+            'Together with all our friends, this party is definitely a wet one :)',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -200,7 +206,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '22 Apr', 
             title: 'Stock Exchange', 
-            description: 'Description',
+            description: 'As you all are great mathematicians and computer scientists, you must know how to properly invest, ' +
+            'exchange and predict the prices of you drinks! At this event you can do this perfectly. ' +
+            'Choose the perfect timing to buy your drinks when they’re at their lowest point!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -212,7 +220,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '12 May', 
             title: 'Canoeing', 
-            description: 'Description',
+            description: 'I won’t say what we’re going to do, but pack your swim suit, your canoe and your paddles, ' +
+            'cause we’re going canoeing! Okay, you can leave your canoe and paddles at home, we’ll take care of them. ' +
+            'We’re still going canoeing!!!!!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -224,16 +234,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '3 Jun', 
             title: 'Beach Day', 
-            description: 'Description',
-            ticketLink: 'https://ch.tudelft.nl/'
-        }]
-    },
-    {
-        type: 'day',
-        items: [{ 
-            date: '10 Jun', 
-            title: 'SjaarCie Collab', 
-            description: 'Description',
+            description: 'If you take the sea, and you take land, and you join those two words: you get sand! ' +
+            'That’s right, we are going to the beach! We made a deal with the weathergods that the sun will shine, ' +
+            'so pack your sunglasses and sunscreen!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -242,7 +245,8 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '25 Jun', 
             title: 'EWI Festival', 
-            description: 'Description',
+            description: 'There are only 2 faculty festivals in Delft: BkBeats and IOFestival. But wait: this year is different! ' +
+            'This year is the Lustrum of WISV Christiaan Huygens. Prepare your partyshoes, it’s time for the EWI Festival!!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     }
