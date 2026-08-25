@@ -12,7 +12,7 @@ const ACTIVITIES_DATA = [
             description: 'Ready for the new study year? Missed all your friends? Join us at the special Lustrum opening party!! ' + 
             'With multiple DJ’s and awesome dance moves, the party in the Steck is going to be one to remember! ' +
             'Bring your +1’s with you for this one, as it’s guaranteed to be a blast.',
-            ticketLink: 'https://ch.tudelft.nl/'
+            ticketLink: 'https://wisv.ch/party'
         }]
     },
     {
