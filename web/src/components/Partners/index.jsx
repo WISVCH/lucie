@@ -1,22 +1,19 @@
 // import React from 'react';
-
-// import Netcompany from '../../assets/img/partners/netcompany.png';
-
 import './index.scss';
 
 const Partners = () => {
     return null;
     // (
     //     <div className="Partners">
-    //         {/* <a href="https://netcompany.com" target="_blank" rel="noreferrer" className="Partner">
-    //             <img src={Netcompany} alt="Netcompany"/>
-    //         </a> */}
-    //         {/* <a href="https://wisv.ch" target="_blank" rel="noreferrer" className="Partner">
-    //             <img src={Partner1} alt="Partner 1"/>
+    //         <a href="https://www.janestreet.com/" target="_blank" rel="noreferrer" className="Partner">
+    //             {/* <img src={Jane Street} alt="Partner 1"/> */}
     //         </a>
-    //         <a href="https://wisv.ch" target="_blank" rel="noreferrer" className="Partner">
-    //             <img src={Partner1} alt="Partner 1"/>
-    //         </a> */}
+    //         <a href="https://elnino.tech/" target="_blank" rel="noreferrer" className="Partner">
+    //             {/* <img src={Partner1} alt="Partner 1"/> */}
+    //         </a>
+    //         <a href="https://www.chipsoft.com/en/" target="_blank" rel="noreferrer" className="Partner">
+    //             <img src={AlbumPoster} alt="Partner 1"/>
+    //         </a>
     //     </div>
     // );
 };

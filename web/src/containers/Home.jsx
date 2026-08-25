@@ -74,9 +74,9 @@ const Home = () => {
                     <Element name="partners"></Element>
                     <div className="Block">
                         <h2>Partners</h2>
-                        <Partners/>
                         <p>Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
                         <a href="mailto:lucie-extern@ch.tudelft.nl" target="_blank" rel="noreferrer" className="Button">Become a partner</a>
+                        <Partners />
                     </div>
                 </section>
             
