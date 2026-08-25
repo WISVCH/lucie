@@ -86,7 +86,8 @@ const Home = () => {
                     <div className="Block Block--with-image">
                         <div className="Block__content">
                             <h2>Lustrum Album</h2>
-                            <p>Did you know that you can contribute to the lustrum album? 🎶 You can write your own song or make a cover! The deadline to submit your song is the 14th of September.</p>
+                            <p>Did you know that you can contribute to the lustrum album? 🎶 You can write your own song or make a cover! 
+                                The deadline to submit your song is the <strong>14th of September.</strong></p>
                             <p>You can apply for a song using the Google Forms below. If your application gets approved, you can submit your file in the forms aswell!</p>
                             <div className="Button-wrapper">
                                 <a href="https://wisv.ch/lustrumalbum" target="_blank" rel="noreferrer" className="Button">Google Forms</a>
