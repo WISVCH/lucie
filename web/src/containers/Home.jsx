@@ -5,6 +5,7 @@ import Nav from '../components/Nav';
 import Partners from '../components/Partners';
 import Team from '../components/Team';
 import Timeline from '../components/Timeline/index';
+import AlbumPoster from '../assets/img/promo/Album_poster.png';
 
 import './Home.scss';
 
@@ -82,12 +83,17 @@ const Home = () => {
                 {/* album */}
                 <section id="album">
                     <Element name="album"></Element>
-                    <div className="Block">
-                        <h2>Lustrum Album</h2>
-                        <p>Did you know that you can contribute to the lustrum album? 🎶 You can write your own song or make a cover! The deadline to submit your song is the 14th of September.</p>
-                        <p>You can apply for a song using the Google Forms below. If your application gets approved, you can submit your file in the forms aswell!</p>
-                        <div className="Button-wrapper">
-                            <a href="https://wisv.ch/lustrumalbum" target="_blank" rel="noreferrer" className="Button">Google Forms</a>
+                    <div className="Block Block--with-image">
+                        <div className="Block__content">
+                            <h2>Lustrum Album</h2>
+                            <p>Did you know that you can contribute to the lustrum album? 🎶 You can write your own song or make a cover! The deadline to submit your song is the 14th of September.</p>
+                            <p>You can apply for a song using the Google Forms below. If your application gets approved, you can submit your file in the forms aswell!</p>
+                            <div className="Button-wrapper">
+                                <a href="https://wisv.ch/lustrumalbum" target="_blank" rel="noreferrer" className="Button">Google Forms</a>
+                            </div>
+                        </div>
+                        <div className="Block__image">
+                            <img src={AlbumPoster} alt="Lustrum Album Poster" />
                         </div>
                     </div>
                 </section>
@@ -97,8 +103,16 @@ const Home = () => {
                     <Element name="merchandise"></Element>
                     <div className="Block">
                         <h2>Merchandise</h2>
-                        <p>More info to come!</p>
-                        <Merchandise/>
+                        <p>Stay tuned for the LuCie merchandise!</p>
+                        
+                        <div className="Merch-Loader">
+                            <div className="Merch-Loader__bar">
+                                <div className="Merch-Loader__progress"></div>
+                            </div>
+                            <span className="Merch-Loader__text">Loading...</span>
+                        </div>
+
+                        <Merchandise />
                     </div>
                 </section>
 

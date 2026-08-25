@@ -23,6 +23,42 @@ body {
     padding: 24px;
 }
 
+.Block--with-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+
+    .Block__content {
+        flex: 1;
+    }
+
+    .Block__image {
+        flex-basis: 220px; 
+        max-width: 250px; 
+        flex-shrink: 0;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
+        gap: 20px;
+
+        .Block__image {
+            width: 100%;
+            max-width: 280px; 
+            align-self: center;
+        }
+    }
+}
+
 .Button {
     display: inline-block;
     color: #ffffff;
@@ -60,5 +96,54 @@ body {
     &-wrapper {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+.Merch-Loader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+
+    &__bar {
+        position: relative;
+        width: 220px;
+        height: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.08); 
+        border-radius: 6px;
+        overflow: hidden;
+
+        @include mobile {
+            width: 160px;
+        }
+    }
+
+    &__progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40%;
+        background-color: $lavender;
+        border-radius: 6px;
+        animation: lavenderProgress 1.6s infinite cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__text {
+        font-size: 14px;
+        font-weight: 600;
+        color: $lavender;
+        font-family: $font-family-mono;
+        letter-spacing: 0.5px;
+    }
+}
+
+@keyframes lavenderProgress {
+    0% {
+        left: -40%;
+    }
+    100% {
+        left: 100%;
     }
 }
