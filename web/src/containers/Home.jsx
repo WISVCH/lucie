@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import Merchandise from '../components/Merchandise';
 import Nav from '../components/Nav';
-import Partners from '../components/Partners';
+// import Partners from '../components/Partners';
 import Team from '../components/Team';
 import Timeline from '../components/Timeline/index';
 import AlbumPoster from '../assets/img/promo/Album_poster.png';
@@ -32,9 +32,9 @@ const Home = () => {
                         <p>
                             Throughout the year, we are hosting an incredible lineup of events, having 
                             both two dedicated Lustrum Weeks (<strong>16–20 November</strong> and <strong>15–19 March</strong>) 
-                            featuring company workshops, a cantus with live band, an owl show, and a pool party, 
+                            featuring a cantus with live band, an owl show, a sip & paint, and a pool party, 
                             alongside single-day highlights like an Opening Party, Abseilen, 
-                            Sumo Chess, and an EWI Festival.
+                            a Sumo Chess Tournament, and an EWI Festival.
                         </p>
 
                         <p>
@@ -52,24 +52,22 @@ const Home = () => {
                                 Baking Competition, or Puzzle Competition.
                             </li>
                             <li>
-                                <strong>Lustrum Album:</strong> Learn how to contribute your own song 
-                                or cover to our official album before the September 14th deadline.
+                                <strong>Lustrum Album:</strong> See how you can contribute your own song 
+                                or cover to our official album.
                             </li>
                             <li>
-                                <strong>Partners & Committee:</strong> Meet the LuCie team organizing 
-                                the year and learn about our corporate partners that made this lustrum possible.
+                                <strong>Committee:</strong> Meet the LuCie, who are organizing this exciting year!
                             </li>
                         </ul>
 
                         <p>
                             We are thrilled to share this exciting year with you. Explore the rest 
-                            of the site to grab your tickets, submit your album entries, and join us 
-                            for all the upcoming activities!
+                            of the site to grab your tickets, and we will see you at all of the upcoming activities!
                         </p>
                     </div>
                 </section>
 
-                {/* partners */}
+                {/* partners
                 <section id="partners">
                     <Element name="partners"></Element>
                     <div className="Block">
@@ -78,7 +76,7 @@ const Home = () => {
                         <a href="mailto:lucie-extern@ch.tudelft.nl" target="_blank" rel="noreferrer" className="Button">Become a partner</a>
                         <Partners />
                     </div>
-                </section>
+                </section> */}
             
                 {/* album */}
                 <section id="album">
@@ -122,7 +120,10 @@ const Home = () => {
                     <Element name="ongoing-games"></Element>
                     <div className="Block">
                         <h2>Ongoing Games & Monthly Competitions</h2>
-                        <p>Every month, on the 14th, there is an ongoing game or mini-competition organized by the LuCie to honor our 14th Lustrum! </p>
+                        <p>
+                            Every month, on the 14th, there is an ongoing game or mini-competition organized by the LuCie to honor our 14th Lustrum! 
+                            For this, you are able to earn points with a team or group. More information for this will follow. 
+                        </p>
 
                         <div className="Monthly-Grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '16px', marginTop: '24px' }}>
     

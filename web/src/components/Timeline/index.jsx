@@ -68,7 +68,7 @@ const ACTIVITIES_DATA = [
             { 
                 date: '17 Nov', 
                 title: 'Lunch Lecture Company', 
-                description: 'Description',
+                description: 'Join us for a delicious lunch, while following a lecture from a company. Stay tuned for the speaker of this lunch lecture.',
                 ticketLink: 'https://ch.tudelft.nl/'
             },
             { 
@@ -86,7 +86,8 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '18 Nov', 
             title: 'Company Drinks', 
-            description: 'Description',
+            description: 'Whether you’re actively job hunting or simply want to network with cool tech companies, ' +
+            'join us for Company Drinks! It’s a great chance to chat, make connections, and see what’s out there.',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -95,8 +96,9 @@ const ACTIVITIES_DATA = [
         items: [
             { 
                 date: '19 Nov', 
-                title: 'Workshop Company', 
-                description: 'Description',
+                title: 'Workshop Rewire', 
+                description: 'Follow a workshop at Rewire. Rewire is a tech company focussed on data & AI.' +
+                'Join our free workshop for an engaging and hands-on learning experience!',
                 ticketLink: 'https://ch.tudelft.nl/'
             },
             { 
@@ -142,7 +144,9 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '11 Feb', 
             title: 'Beer Tasting', 
-            description: 'Description',
+            description: 'Think you know your beers, or just love a cold one? Join us for an evening of great vibes, ' +
+            'discovering your next favorite pint, and tasting a fantastic selection of craft brews ' +
+            '(including alcohol-free options)! Grab a glass and cheers with us!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -155,7 +159,8 @@ const ACTIVITIES_DATA = [
         items: [{ 
                 date: '15 Mar', 
                 title: 'Opening and Reception', 
-                description: 'Description',
+                description: 'Christiaan Huygens birthday is on March 16th, and we’re kicking off Lustrum Week with a celebration! ' +
+                'Swing by the reception for free drinks, congratulate the board on this major milestone, and toast to the occasion with us.',
                 ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -163,8 +168,9 @@ const ACTIVITIES_DATA = [
         type: 'day',
         items: [{ 
             date: '16 Mar', 
-            title: 'Workshop Company', 
-            description: 'Description',
+            title: 'Workshop Transtrend', 
+            description: 'Follow a workshop at Transtrend. Transtrend is an investment manager that focusses on systematic trading strategies.' +
+            'Come join us for a fun, free, and educational workshop!',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
@@ -193,8 +199,10 @@ const ACTIVITIES_DATA = [
         type: 'day',
         items: [{ 
             date: '19 Mar', 
-            title: 'Honorary Faculty Members Dinner', 
-            description: 'Description',
+            title: 'Members of Merit Dinner', 
+            description: 'A special night dedicated entirely to the Members of Merit and Honorary Members of our association! ' +
+            'Please join us for the Members of Merit Dinner for an evening of warm company, excellent food, ' +
+            'and celebrating your incredible contributions to our association.',
             ticketLink: 'https://ch.tudelft.nl/'
         }]
     },
