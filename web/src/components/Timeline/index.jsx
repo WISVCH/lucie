@@ -21,7 +21,7 @@ const ACTIVITIES_DATA = [
             date: '14 Sep', 
             title: 'Abseilen', 
             description: 'What???? Asbeiling!! From where? The EWI tower!!! Who? You! Scary? Definitely! Epic? Of course! ',
-            ticketLink: 'https://ch.tudelft.nl/'
+            ticketLink: 'https://wisv.ch/abseil'
         }]
     },
 
