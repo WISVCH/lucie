@@ -110,7 +110,7 @@ const Home = () => {
                                 </li>
                                 <li>
                                     <strong>Ongoing Games & Monthly Competitions:</strong> On the 14th of 
-                                    every month, join in on fun challenges like our Dart Tournament, 
+                                    every month, join in on fun challenges like our Pool Tournament, 
                                     Baking Competition, or Puzzle Competition.
                                 </li>
                                 <li>
@@ -191,7 +191,7 @@ const Home = () => {
         
                                 <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
                                     <div><strong className="text-highlight-lavender">14 Oct</strong></div>
-                                    <span>Dart Tournament</span>
+                                    <span>Pool Tournament</span>
                                 </div>
 
                                 <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
