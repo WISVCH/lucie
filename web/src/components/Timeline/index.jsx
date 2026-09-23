@@ -35,7 +35,7 @@ const ACTIVITIES_DATA = [
             description: 'Ready for a crazy night in the /Pub. Join this event where you can combine your 2 favourite activities: ' + 
             'sumo wrestling and chess. With shorts round of wrestling in sumo suits alternated with speed chess. ' +
             '2 completely different sports, only 1 winner!',
-            ticketLink: 'https://wisv/sumochess'
+            ticketLink: 'https://wisv.ch/sumochess'
         }]
     },
 
