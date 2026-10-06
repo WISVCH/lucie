@@ -1,24 +1,69 @@
-@import '../../styling/entry';
-
-.Partners {
+.Partners-Grid {
     display: flex;
-    flex-wrap: wrap;
-    margin: 32px 0;
-}
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 20px;
 
-.Partner {
-    flex-basis: 400px;
-    padding: 16px 32px;
-    margin-bottom: 16px;
-    position: relative;
-    opacity: 1;
-    transition: opacity 0.2s ease;
+    .Partner-Card {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 24px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-decoration: none;
+        color: inherit;
 
-    img {
-        max-width: 100%;
-    }
+        .Partner-Logo-Wrapper {
+            width: 180px; 
+            height: 65px; 
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; 
 
-    &:hover {
-        opacity: 0.4;
+            img {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                display: block;
+            }
+        }
+
+        .Partner-Info {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            h3 {
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 700;
+                display: inline-block;
+                border-radius: 4px;
+                width: fit-content;
+            }
+
+            p {
+                margin: 0;
+                font-size: 0.9rem;
+                line-height: 1.5;
+                color: #555;
+                white-space: pre-line;
+            }
+
+            .Partner-Link {
+                margin-top: 4px;
+                font-size: 0.85rem;
+                color: #83b993;
+                text-decoration: none;
+                width: fit-content;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 }
