@@ -134,6 +134,12 @@ const Home = () => {
                         <Element name="partners"></Element>
                         <div className="Block">
                             <h2>Partners</h2>
+                            <p>
+                                Meet our Main Sponsors! A big thanks to these companies who are making this amazing year 
+                                possible. 
+                                <br></br>
+                                Interested in collaborating with us? Contact us at <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a>!
+                            </p>
                             <Partners />
                         </div>
                     </section>
