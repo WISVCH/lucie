@@ -8,8 +8,8 @@ $red: #dc3545;
 $lavender: #D2A2F7;
 $eucalyptus: #83b993;
 
-$highlight-eucalyptus: rgba(red($eucalyptus), green($eucalyptus), blue($eucalyptus), 0.65);
-$highlight-lavender: rgba(red($lavender), green($lavender), blue($lavender), 0.65);
+$highlight-eucalyptus: rgba($eucalyptus, 0.65);
+$highlight-lavender: rgba($lavender, 0.65);
 
 $font-family-base: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
 $font-family-mono: monospace;
