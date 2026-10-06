@@ -1,7 +1,7 @@
 import './index.scss';
-import JaneStreet from '../../assets/img/partners/Jane_Street_logo.png';
-import ChipSoft from '../../assets/img/partners/ChipSoft_logo.png';
-import ElNino from '../../assets/img/partners/El_Niño_logo.png';
+import JaneStreet from '../assets/img/partners/Jane_Street_logo.png';
+import ChipSoft from '../assets/img/partners/ChipSoft_logo.png';
+import ElNino from '../assets/img/partners/El_Niño_logo.png';
 
 const Partners = () => {
     const partnersData = [
