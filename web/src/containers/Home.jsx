@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { Element } from 'react-scroll';
 import Merchandise from '../components/Merchandise';
 import Nav from '../components/Nav';
-// import Partners from '../components/Partners';
+import Partners from '../components/Partners';
 import Team from '../components/Team';
 import Timeline from '../components/Timeline/index';
 import AlbumPoster from '../assets/img/promo/Album_poster.png';
@@ -129,16 +129,20 @@ const Home = () => {
                         </div>
                     </section>
 
-                    {/* partners
+                    {/* partners */ }
                     <section id="partners">
                         <Element name="partners"></Element>
                         <div className="Block">
                             <h2>Partners</h2>
-                            <p>Please contact us by email on <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a> if you are interested in collaboration with our lustrum activities.</p>
-                            <a href="mailto:lucie-extern@ch.tudelft.nl" target="_blank" rel="noreferrer" className="Button">Become a partner</a>
+                            <p>
+                                Meet our Main Sponsors! A big thanks to these companies who are making this amazing year 
+                                possible. 
+                                <br></br>
+                                Interested in collaborating with us? Contact us at <a href="mailto:lucie-extern@ch.tudelft.nl">lucie-extern@ch.tudelft.nl</a>!
+                            </p>
                             <Partners />
                         </div>
-                    </section> */}
+                    </section>
 
                     {/* album */}
                     <section id="album">
