@@ -47,9 +47,9 @@ const ACTIVITIES_DATA = [
         items: [
             { 
                 date: '16 Nov', 
-                title: 'Owl Show', 
-                description: 'Oehooeeeee. Oeehoeeee. Are you an owl? I hope not. Have you ever seen one? I think so. ' +
-                'Close by? Probably not. Want to? Duhhhh. See you at this event.',
+                title: 'Show', 
+                description: 'Join the Lustrum Show organised by the LuCie! This will be the opening of the Lustrum week, ' +
+                'so it is guaranteed to be very exciting and fun!',
                 ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-owl-show/'
             },
             { 
@@ -94,20 +94,20 @@ const ACTIVITIES_DATA = [
     {
         type: 'day',
         items: [
+            // { 
+            //     date: '19 Nov', 
+            //     title: 'Company Workshop', 
+            //     description: 'Follow a workshop at a company.' +
+            //     'Join our free workshop for an engaging and hands-on learning experience!',
+            //     ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-company-workshop/'
+            // },
             { 
                 date: '19 Nov', 
-                title: 'Company Workshop', 
-                description: 'Follow a workshop at a company.' +
-                'Join our free workshop for an engaging and hands-on learning experience!',
-                ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-company-workshop/'
-            },
-            { 
-                date: '19 Nov', 
-                title: 'Cantus with Live Band', 
-                description: 'Mama, just killed a man. Put a gun against his head, pulled my trigger, now he’s dead. ' +
-                'Mama, life had just begun. But now I’ve gone and thrown it all away. Enjoy this song? ' +
-                'Then keep singing and join us at the cantus with the live band!',
-                ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-cantus-2/'
+                title: 'Beer Tasting', 
+                description: 'Think you know your beers, or just love a cold one? Join us for an evening of great vibes, ' +
+                'discovering your next favorite pint, and tasting a fantastic selection of craft brews ' +
+                '(including alcohol-free options)! Grab a glass and cheers with us!',
+                ticketLink: 'https://ch.tudelft.nl/activities/event/2027/lustrum-beer-tasting/'
             }
         ]
     },
@@ -143,11 +143,11 @@ const ACTIVITIES_DATA = [
         type: 'day',
         items: [{ 
             date: '11 Feb', 
-            title: 'Beer Tasting', 
-            description: 'Think you know your beers, or just love a cold one? Join us for an evening of great vibes, ' +
-            'discovering your next favorite pint, and tasting a fantastic selection of craft brews ' +
-            '(including alcohol-free options)! Grab a glass and cheers with us!',
-            ticketLink: 'https://ch.tudelft.nl/activities/event/2027/lustrum-beer-tasting/'
+            title: 'Stock Exchange', 
+            description: 'As you all are great mathematicians and computer scientists, you must know how to properly invest, ' +
+            'exchange and predict the prices of you drinks! At this event you can do this perfectly. ' +
+            'Choose the perfect timing to buy your drinks when they’re at their lowest point!',
+            ticketLink: 'https://ch.tudelft.nl/activities/event/2027/lustrum-stock-exchange/'
         }]
     },
 
@@ -212,12 +212,12 @@ const ACTIVITIES_DATA = [
     {
         type: 'day',
         items: [{ 
-            date: '22 Apr', 
-            title: 'Stock Exchange', 
-            description: 'As you all are great mathematicians and computer scientists, you must know how to properly invest, ' +
-            'exchange and predict the prices of you drinks! At this event you can do this perfectly. ' +
-            'Choose the perfect timing to buy your drinks when they’re at their lowest point!',
-            ticketLink: 'https://ch.tudelft.nl/activities/event/2027/lustrum-stock-exchange/'
+            date: '29 Apr', 
+            title: 'Cantus with Live Band', 
+            description: 'Mama, just killed a man. Put a gun against his head, pulled my trigger, now he’s dead. ' +
+            'Mama, life had just begun. But now I’ve gone and thrown it all away. Enjoy this song? ' +
+            'Then keep singing and join us at the cantus with the live band!',
+            ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-cantus-2/'
         }]
     },
 
