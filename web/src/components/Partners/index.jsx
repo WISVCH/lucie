@@ -13,7 +13,7 @@ const Partners = () => {
                 "Jane Street is a quantitative trading firm with offices worldwide.\n" +
                 "We hire smart, humble people who love to solve problems, build systems, and test theories.\n" + 
                 "Will our next great idea come from you?",
-            linkText: "Official website: https://www.janestreet.com/",
+            linkText: "Official website: https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london",
         },
         {
             name: <h3><strong>El Niño</strong></h3>,
