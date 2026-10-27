@@ -3,6 +3,7 @@ import { Element } from 'react-scroll';
 import Merchandise from '../components/Merchandise';
 import Nav from '../components/Nav';
 import Partners from '../components/Partners';
+import Battle from '../components/Battle';
 import Team from '../components/Team';
 import Timeline from '../components/Timeline/index';
 import AlbumPoster from '../assets/img/promo/Album_poster.png';
@@ -182,65 +183,7 @@ const Home = () => {
                     </section>
 
                     {/* ongoing games */}
-                    <section id="ongoing-games">
-                        <Element name="ongoing-games"></Element>
-                        <div className="Block">
-                            <h2>Ongoing Games & Monthly Competitions</h2>
-                            <p>
-                                Every month, on the 14th, there is an ongoing game or mini-competition organized by the LuCie to honor our 14th Lustrum! 
-                                For this, you are able to earn points with a team or group. More information for this will follow. 
-                            </p>
-
-                            <div className="Monthly-Grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '16px', marginTop: '24px' }}>
-        
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Oct</strong></div>
-                                    <span>Pool Tournament</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Nov</strong></div>
-                                    <span>Album Release</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Dec</strong></div>
-                                    <span>Baking Competition</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Jan</strong></div>
-                                    <span>Puzzle Competition</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Feb</strong></div>
-                                    <span>Valentines Special</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Mar</strong></div>
-                                    <span>Promotion Competition</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Apr</strong></div>
-                                    <span>HotDog Competition</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 May</strong></div>
-                                    <span>14 Floors</span>
-                                </div>
-
-                                <div className="Game-Card" style={{ background: '#fff', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.250)', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                                    <div><strong className="text-highlight-lavender">14 Jun</strong></div>
-                                    <span>Coloring Contest</span>
-                                </div>
-
-                            </div>
-                        </div>
-                    </section>
+                    <Battle/>
 
                     {/* activities */}
                     <section id="activities">
