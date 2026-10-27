@@ -116,7 +116,7 @@ const ACTIVITIES_DATA = [
             title: 'External Day', 
             description: 'Do you always get questions from your siblings and friends on what Delft is like? ' +
             'Well then now it’s time to show them! Bring all your siblings to this special day. ' +
-            'Part of the activities will be help at EWI and the /Pub. Afterwards we will go bowling in Delft! ',
+            'Part of the activities will be held at EWI and the /Pub. Afterwards we will go bowling in Delft! ',
             ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-external-day/'
         }]
     },
