@@ -47,9 +47,10 @@ const ACTIVITIES_DATA = [
         items: [
             { 
                 date: '16 Nov', 
-                title: 'Show', 
-                description: 'Join the Lustrum Show organised by the LuCie! This will be the opening of the Lustrum week, ' +
-                'so it is guaranteed to be very exciting and fun!',
+                title: 'Silent Disco', 
+                description: 'Are you excited to start the lustrum week with a blast? Then come to the Silent Disco Lunch! ' +
+                'You will be able to listen to the newly released Lustrum Album (don’t worry, we well also play some other music ;)), and get some delicious lunch, all for free!! ' +
+                'Will we see you there?? ',
                 ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-owl-show/'
             },
             { 
@@ -68,7 +69,8 @@ const ACTIVITIES_DATA = [
             { 
                 date: '17 Nov', 
                 title: 'Lunch Lecture Company', 
-                description: 'Join us for a delicious lunch, while following a lecture from a company. Stay tuned for the speaker of this lunch lecture.',
+                description: 'Join us for a delicious lunch, while following a lecture from a company. ' +
+                'We will be joined by one of our Main Sponsors: El Niño!! Want to know more? Come to the Lunch Lecture and find out!',
                 ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-lunch-lecture/'
             },
             { 
@@ -86,21 +88,17 @@ const ACTIVITIES_DATA = [
         items: [{ 
             date: '18 Nov', 
             title: 'Company Drinks', 
-            description: 'Whether you’re actively job hunting or simply want to network with cool tech companies, ' +
-            'join us for Company Drinks! It’s a great chance to chat, make connections, and see what’s out there.',
+            description: 'Whether you’re actively job hunting or simply want to network with cool companies, join us for the Networking Drinks!' +
+            'It’s a great chance to chat, network, and see what’s out there. We will be joined by two amazing companies: ChipSoft and Nationale Nederlanden! ' +
+            'During this event, both companies will give a short presentation, after which you will be able to talk to them over drinks. ' +
+            'The event will take place from 19:00 until 22:00 in the /Pub, and you get two free drinks! We hope to see you there! ' +
+            'Note: ChipSoft will hold their presentation in Dutch, as they looking specifically for Dutch people. Nationale Nederlanden will be participating in English.',
             ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-company-drinks/'
         }]
     },
     {
         type: 'day',
         items: [
-            // { 
-            //     date: '19 Nov', 
-            //     title: 'Company Workshop', 
-            //     description: 'Follow a workshop at a company.' +
-            //     'Join our free workshop for an engaging and hands-on learning experience!',
-            //     ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-company-workshop/'
-            // },
             { 
                 date: '19 Nov', 
                 title: 'Beer Tasting', 
@@ -118,7 +116,7 @@ const ACTIVITIES_DATA = [
             title: 'External Day', 
             description: 'Do you always get questions from your siblings and friends on what Delft is like? ' +
             'Well then now it’s time to show them! Bring all your siblings to this special day. ' +
-            'A part of the activities will be at EWI and the /Pub. Afterwards we will go bowling in Delft! ',
+            'Part of the activities will be help at EWI and the /Pub. Afterwards we will go bowling in Delft! ',
             ticketLink: 'https://ch.tudelft.nl/activities/event/2026/lustrum-external-day/'
         }]
     },
