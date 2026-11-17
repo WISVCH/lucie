@@ -30,7 +30,7 @@ const Album = () => {
         { id: 1, title: "Highlight", artist: "LuCie 14", durationStr: "3:14", src: Highlight },
         { id: 2, title: "BoA", artist: "BoA 68", durationStr: "1:58", src: BoA },
         { id: 3, title: "Green Suits and Study", artist: "WIEWIE", durationStr: "1:14", src: Wiewie },
-        { id: 4, title: "Date voor het Gala", artist: "GalaCie", durationStr: "4:09", src: Gala },
+        { id: 4, title: "Date voor het Gala", artist: "Los Pepinos", durationStr: "4:09", src: Gala },
         { id: 5, title: "Echt een ouwe lul", artist: "Mean House", durationStr: "3:07", src: OuweLul },
         { id: 6, title: "Cosmo", artist: "LvV Joep", durationStr: "3:20", src: Cosmo },
         { id: 7, title: "Geen ETV", artist: "Makkelijke Misha en PauLIDL", durationStr: "3:37", src: GeenETV },
